@@ -2,67 +2,70 @@
 
 track IsletTFs
 superTrack on show
-shortLabel Human Islet TFs
-longLabel Human Islet Transcription Factors
+shortLabel Adult Islet TFs
+longLabel Adult Human Islet Transcription Factor ChIP-seq
 priority 3
 
 	track hiPDX1
 	parent IsletTFs
 	type bigWig
 	container multiWig
-	shortLabel PDX1 Adult Islet
-	longLabel PDX1 ChIP-seq in Adult Human Islets
+	shortLabel PDX1 Adult Islet (Pasquali L et al. 2014)
+	longLabel PDX1 ChIP-seq in Adult Human Islets (Pasquali L et al. 2014)
 	visibility full
 	aggregate transparentOverlay
 	smoothingWindow 2
 	windowingFunction mean
 	autoScale on
 	alwaysZero on
-	color 31,120,180
+	configurable on
 	showSubtrackColorOnUi on
 	priority 1
 
 		track PDX1_HI32
 		bigDataUrl http://gattaca.imppc.org/genome_browser/lplab/IRB_hg19/hg19_PDX1_HI32.bw
-		shortLabel PDX1 HI(32) (Pasquali L et al. 2014)
-		longLabel PDX1 ChIP-seq in HI(32) (Pasquali L et al. 2014)
+		shortLabel PDX1 HI32
+		longLabel PDX1 ChIP-seq in Adult Islet HI32
 		parent hiPDX1
+		color 31,120,180
 		type bigWig
 
 		track PDX1_HI45
 		bigDataUrl http://gattaca.imppc.org/genome_browser/lplab/IRB_hg19/hg19_PDX1_HI45.bw
-		shortLabel PDX1 HI(45) (Pasquali L et al. 2014)
-		longLabel PDX1 ChIP-seq in HI(45) (Pasquali L et al. 2014)
+		shortLabel PDX1 HI45
+		longLabel PDX1 ChIP-seq in Adult Islet HI45
 		parent hiPDX1
+		color 31,120,180
 		type bigWig
 
 	track hiFOXA2
 	parent IsletTFs
 	type bigWig
 	container multiWig
-	shortLabel FOXA2 Adult Islet
-	longLabel FOXA2 ChIP-seq in Adult Human Islets
+	shortLabel FOXA2 Adult Islet (Pasquali L et al. 2014)
+	longLabel FOXA2 ChIP-seq in Adult Human Islets (Pasquali L et al. 2014)
 	visibility full
 	aggregate transparentOverlay
 	smoothingWindow 2
 	windowingFunction mean
 	autoScale on
 	alwaysZero on
+	configurable on
 	showSubtrackColorOnUi on
 	priority 1
 
 		track FOXA2_HI32
 		bigDataUrl http://gattaca.imppc.org/genome_browser/lplab/IRB_hg19/hg19_FOXA2_HI32.bw
-		shortLabel FOXA2 HI(32) (Pasquali L et al. 2014)
-		longLabel FOXA2 ChIP-seq in HI(32) (Pasquali L et al. 2014)
+		shortLabel FOXA2 HI32
+		longLabel FOXA2 ChIP-seq Adult Islet in HI32
 		parent hiFOXA2
 		type bigWig
 		color 227,26,28
 
 		track FOXA2_HI101
 		bigDataUrl http://gattaca.imppc.org/genome_browser/lplab/IRB_hg19/hg19_FOXA2_HI101.bw
-		shortLabel FOXA2 HI(101) (Pasquali L et al. 2014)
-		longLabel FOXA2 ChIP-seq in HI(101) (Pasquali L et al. 2014)
+		shortLabel FOXA2 HI101
+		longLabel FOXA2 ChIP-seq in Adult Islet HI101
 		parent hiFOXA2
 		type bigWig
 		color 227,26,28

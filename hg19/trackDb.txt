@@ -69,3 +69,67 @@ priority 3
 		parent hiFOXA2
 		type bigWig
 		color 227,26,28
+
+	track hiMAFB
+	parent IsletTFs
+	type bigWig
+	container multiWig
+	shortLabel MAFB Adult Islet (Pasquali L et al. 2014)
+	longLabel MAFB ChIP-seq in Adult Human Islets (Pasquali L et al. 2014)
+	visibility full
+	aggregate transparentOverlay
+	smoothingWindow 2
+	windowingFunction mean
+	autoScale on
+	alwaysZero on
+	configurable on
+	showSubtrackColorOnUi on
+	priority 1
+
+		track MAFB_HI81
+		bigDataUrl http://gattaca.imppc.org/genome_browser/lplab/IRB_hg19/hg19_MAFB_HI81.bw
+		shortLabel MAFB HI81
+		longLabel MAFB ChIP-seq Adult Islet in HI81
+		parent hiMAFB
+		type bigWig
+		color 106,61,154
+
+		track MAFB_HI87
+		bigDataUrl http://gattaca.imppc.org/genome_browser/lplab/IRB_hg19/hg19_MAFB_HI87.bw
+		shortLabel MAFB HI87
+		longLabel MAFB ChIP-seq in Adult Islet HI87
+		parent hiMAFB
+		type bigWig
+		color 106,61,154
+
+	track hiNKX2_2
+	parent IsletTFs
+	type bigWig
+	container multiWig
+	shortLabel NKX2.2 Adult Islet (Pasquali L et al. 2014)
+	longLabel NKX2.2 ChIP-seq in Adult Human Islets (Pasquali L et al. 2014)
+	visibility full
+	aggregate transparentOverlay
+	smoothingWindow 2
+	windowingFunction mean
+	autoScale on
+	alwaysZero on
+	configurable on
+	showSubtrackColorOnUi on
+	priority 1
+
+		track NKX2_2_HI88
+		bigDataUrl http://gattaca.imppc.org/genome_browser/lplab/IRB_hg19/hg19_NKX2.2_HI88.bw
+		shortLabel NKX2.2 HI88
+		longLabel NKX2.2 ChIP-seq Adult Islet in HI88
+		parent hiNKX2_2
+		type bigWig
+		color 51,160,44
+
+		track NKX2_2_HI87
+		bigDataUrl http://gattaca.imppc.org/genome_browser/lplab/IRB_hg19/hg19_NKX2.2_HI87.bw
+		shortLabel NKX2.2 HI87
+		longLabel NKX2.2 ChIP-seq in Adult Islet HI87
+		parent hiNKX2_2
+		type bigWig
+		color 51,160,44

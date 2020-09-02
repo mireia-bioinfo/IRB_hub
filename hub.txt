@@ -1,5 +1,5 @@
 hub IRB_hub
-shortLabel Islet Regulome Browser (IRB) hub
-longLabel Islet Regulome Browser track hub, including relevant genomic and epigenomic datasets from pancreatic islets and other islet-relevant tissues.
+shortLabel Islet Regulome Browser
+longLabel The Islet Regulome Browser includes relevant genomic and epigenomic datasets from pancreatic islets and other islet-relevant tissues.
 genomesFile genomes.txt
 email mireia.bioinfo@upf.edu

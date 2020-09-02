@@ -207,7 +207,7 @@ priority 4
 		bigDataUrl http://gattaca.imppc.org/genome_browser/lplab/IRB_hg19/hg19_FOXA2_PP2.bw
 		shortLabel FOXA2 PP2
 		longLabel FOXA2 ChIP-seq Adult Islet in PP2
-		parent hiFOXA2
+		parent ppFOXA2
 		type bigWig
 		color 251,154,153
 
@@ -215,6 +215,6 @@ priority 4
 		bigDataUrl http://gattaca.imppc.org/genome_browser/lplab/IRB_hg19/hg19_FOXA2_PP3.bw
 		shortLabel FOXA2 PP3
 		longLabel FOXA2 ChIP-seq in Adult Islet PP3
-		parent hiFOXA2
+		parent ppFOXA2
 		type bigWig
 		color 251,154,153

@@ -10,90 +10,9 @@
 ## Adult Islets -- Histone Marks ChIP-seq
 #################################################
 
-track IsletHistones
-superTrack on show
-shortLabel Adult Islet Histone Marks
-longLabel Adult Human Islet Histone Marks ChIP-seq
-priority 2
-
 ##-----------------------------------------------
 ## Pasquali L. et al. 2014
 ##-----------------------------------------------
-	
-	track H2AZ_HI32
-	parent IsletHistones
-	type bigWig
-	shortLabel H2A.Z Adult Islet HI32 (Pasquali L et al. 2014)
-	longLabel H2A.Z ChIP-seq in Adult Islet HI32 (Pasquali L et al. 2014)
-	bigDataUrl http://gattaca.imppc.org/genome_browser/lplab/IRB_hg19/H2AZ_HI_32_hg19-extended_compressed_RPKM.bw
-	visibility full
-	smoothingWindow 2
-	windowingFunction mean
-	autoScale on
-	alwaysZero on
-	configurable on
-	priority 1
-	color 176,187,22
-
-	track H3K27ac_HI32
-	parent IsletHistones
-	type bigWig
-	shortLabel H3K27ac Adult Islet HI32 (Pasquali L et al. 2014)
-	longLabel H3K27ac ChIP-seq in Adult Islet HI32 (Pasquali L et al. 2014)
-	bigDataUrl http://gattaca.imppc.org/genome_browser/lplab/IRB_hg19/H3k27ac_HI_32_hg19-extended_compressed_RPKM.bw
-	visibility full
-	smoothingWindow 2
-	windowingFunction mean
-	autoScale on
-	alwaysZero on
-	configurable on
-	priority 1
-	color 214,26,70
-
-	track H3K4me1_HI32
-	parent IsletHistones
-	type bigWig
-	shortLabel H3K4me1 Adult Islet HI32 (Pasquali L et al. 2014)
-	longLabel H3K4me1 ChIP-seq in Adult Islet HI32 (Pasquali L et al. 2014)
-	bigDataUrl http://gattaca.imppc.org/genome_browser/lplab/IRB_hg19/H3k4me1_HI_32_hg19-extended_compressed_RPKM.bw
-	visibility full
-	smoothingWindow 2
-	windowingFunction mean
-	autoScale on
-	alwaysZero on
-	configurable on
-	priority 1
-	color 52,9,19
-
-	track H3K4me3_HI32
-	parent IsletHistones
-	type bigWig
-	shortLabel H3K4me3 Adult Islet HI32 (Pasquali L et al. 2014)
-	longLabel H3K4me3 ChIP-seq in Adult Islet HI32 (Pasquali L et al. 2014)
-	bigDataUrl http://gattaca.imppc.org/genome_browser/lplab/IRB_hg19/H3k4me3_HI_32_hg19-extended_compressed_RPKM.bw
-	visibility full
-	smoothingWindow 2
-	windowingFunction mean
-	autoScale on
-	alwaysZero on
-	configurable on
-	priority 1
-	color 52,123,152
-
-	track H3K36me3_HI32
-	parent IsletHistones
-	type bigWig
-	shortLabel H3K36me3 Adult Islet HI32 (Pasquali L et al. 2014)
-	longLabel H3K36me3 ChIP-seq in Adult Islet HI32 (Pasquali L et al. 2014)
-	bigDataUrl http://gattaca.imppc.org/genome_browser/lplab/IRB_hg19/H3k36me3_HI_32_hg19-extended_compressed_RPKM.bw
-	visibility full
-	smoothingWindow 2
-	windowingFunction mean
-	autoScale on
-	alwaysZero on
-	configurable on
-	priority 1
-	color 174,13,122
 
 
 #################################################
@@ -351,7 +270,7 @@ priority 4
 	type bigWig
 	shortLabel HNF1B Pancreatic Progenitor PP4 (Cebola I et al. 2015)
 	longLabel HNF1B ChIP-seq in Pancreatic Progenitor PP4 (Cebola I et al. 2015)
-	bigDataUrl http://gattaca.imppc.org/genome_browser/lplab/IRB_hg19/hg19_HNF1beta_PP4.bw
+	bigDataUrl http://gattaca.imppc.org/genome_browser/lplab/IRB_hg19/hg19_HNF1eta_PP4.bw
 	visibility full
 	smoothingWindow 2
 	windowingFunction mean

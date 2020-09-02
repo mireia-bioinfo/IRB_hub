@@ -133,3 +133,88 @@ priority 3
 		parent hiNKX2_2
 		type bigWig
 		color 51,160,44
+
+	track hiNKX6_1
+	parent IsletTFs
+	type bigWig
+	container multiWig
+	shortLabel NKX6.1 Adult Islet (Pasquali L et al. 2014)
+	longLabel NKX6.1 ChIP-seq in Adult Human Islets (Pasquali L et al. 2014)
+	visibility full
+	aggregate transparentOverlay
+	smoothingWindow 2
+	windowingFunction mean
+	autoScale on
+	alwaysZero on
+	configurable on
+	showSubtrackColorOnUi on
+	priority 1
+
+		track NKX6_1_HI102
+		bigDataUrl http://gattaca.imppc.org/genome_browser/lplab/IRB_hg19/hg19_NKX6.1_HI102.bw
+		shortLabel NKX6.1 HI102
+		longLabel NKX6.1 ChIP-seq Adult Islet in HI102
+		parent hiNKX6_1
+		type bigWig
+		color 51,160,44
+
+		track NKX6_1_HI118
+		bigDataUrl http://gattaca.imppc.org/genome_browser/lplab/IRB_hg19/hg19_NKX6.1_HI118.bw
+		shortLabel NKX6.1 HI118
+		longLabel NKX6.1 ChIP-seq in Adult Islet HI118
+		parent hiNKX6_1
+		type bigWig
+		color 51,160,44
+
+track pancreaticProgenitorTFs
+superTrack on show
+shortLabel Pancreatic Progenitor TFs
+longLabel Pancreatic Progenitor Transcription Factor ChIP-seq
+priority 4
+
+	track ppPDX1
+	parent pancreaticProgenitorTFs
+	type bigWig
+	shortLabel PDX1 Pancreatic Progenitor PP3 (Cebola I et al. 2015)
+	longLabel PDX1 ChIP-seq in Pancreatic Progenitor PP3 (Cebola I et al. 2015)
+	bigDataUrl http://gattaca.imppc.org/genome_browser/lplab/IRB_hg19/hg19_PDX1_PP3.bw
+	visibility full
+	smoothingWindow 2
+	windowingFunction mean
+	autoScale on
+	alwaysZero on
+	configurable on
+	priority 1
+	color 166,206,227
+
+	track ppFOXA2
+	parent pancreaticProgenitorTFs
+	type bigWig
+	container multiWig
+	shortLabel FOXA2 Pancreatic Progenitors (Cebola I et al. 2015)
+	longLabel FOXA2 ChIP-seq in Pancreatic Progenitors (Cebola I et al. 2015)
+	visibility full
+	aggregate transparentOverlay
+	smoothingWindow 2
+	windowingFunction mean
+	autoScale on
+	alwaysZero on
+	configurable on
+	showSubtrackColorOnUi on
+	priority 1
+
+		track FOXA2_PP2
+		bigDataUrl http://gattaca.imppc.org/genome_browser/lplab/IRB_hg19/hg19_FOXA2_PP2.bw
+		shortLabel FOXA2 PP2
+		longLabel FOXA2 ChIP-seq Adult Islet in PP2
+		parent hiFOXA2
+		type bigWig
+		color 251,154,153
+
+		track FOXA2_PP3
+		bigDataUrl http://gattaca.imppc.org/genome_browser/lplab/IRB_hg19/hg19_FOXA2_PP3.bw
+		shortLabel FOXA2 PP3
+		longLabel FOXA2 ChIP-seq in Adult Islet PP3
+		parent hiFOXA2
+		type bigWig
+		color 251,154,153

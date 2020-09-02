@@ -270,7 +270,7 @@ priority 4
 	type bigWig
 	shortLabel HNF1B Pancreatic Progenitor PP4 (Cebola I et al. 2015)
 	longLabel HNF1B ChIP-seq in Pancreatic Progenitor PP4 (Cebola I et al. 2015)
-	bigDataUrl http://gattaca.imppc.org/genome_browser/lplab/IRB_hg19/hg19_HNF1eta_PP4.bw
+	bigDataUrl http://gattaca.imppc.org/genome_browser/lplab/IRB_hg19/hg19_HNF1beta_PP4.bw
 	visibility full
 	smoothingWindow 2
 	windowingFunction mean

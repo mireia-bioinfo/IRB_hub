@@ -1,6 +1,12 @@
 # hg19
 
 #################################################
+## Adult Islets -- Regulatory Elements
+#################################################
+
+# Make composite track of bigBeds with all regulatory elements
+
+#################################################
 ## Adult Islets -- Histone Marks ChIP-seq
 #################################################
 
@@ -340,12 +346,12 @@ priority 4
 	priority 1
 	color 255,237,111
 
-	track ppGATA6
+	track ppHNF1B
 	parent pancreaticProgenitorTFs
 	type bigWig
-	shortLabel GATA6 Pancreatic Progenitor PP4 (Cebola I et al. 2015)
-	longLabel GATA6 ChIP-seq in Pancreatic Progenitor PP4 (Cebola I et al. 2015)
-	bigDataUrl http://gattaca.imppc.org/genome_browser/lplab/IRB_hg19/hg19_GATA6eta_PP4.bw
+	shortLabel HNF1B Pancreatic Progenitor PP4 (Cebola I et al. 2015)
+	longLabel HNF1B ChIP-seq in Pancreatic Progenitor PP4 (Cebola I et al. 2015)
+	bigDataUrl http://gattaca.imppc.org/genome_browser/lplab/IRB_hg19/hg19_HNF1beta_PP4.bw
 	visibility full
 	smoothingWindow 2
 	windowingFunction mean

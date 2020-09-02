@@ -1,10 +1,108 @@
 # hg19
 
+#################################################
+## Adult Islets -- Histone Marks ChIP-seq
+#################################################
+
+track IsletHistones
+superTrack on show
+shortLabel Adult Islet Histone Marks
+longLabel Adult Human Islet Histone Marks ChIP-seq
+priority 2
+
+##-----------------------------------------------
+## Pasquali L. et al. 2014
+##-----------------------------------------------
+	
+	track H2AZ_HI32
+	parent IsletHistones
+	type bigWig
+	shortLabel H2A.Z Adult Islet HI32 (Pasquali L et al. 2014)
+	longLabel H2A.Z ChIP-seq in Adult Islet HI32 (Pasquali L et al. 2014)
+	bigDataUrl http://gattaca.imppc.org/genome_browser/lplab/IRB_hg19/H2AZ_HI_32_hg19-extended_compressed_RPKM.bw
+	visibility full
+	smoothingWindow 2
+	windowingFunction mean
+	autoScale on
+	alwaysZero on
+	configurable on
+	priority 1
+	color 176,187,22
+
+	track H3K27ac_HI32
+	parent IsletHistones
+	type bigWig
+	shortLabel H3K27ac Adult Islet HI32 (Pasquali L et al. 2014)
+	longLabel H3K27ac ChIP-seq in Adult Islet HI32 (Pasquali L et al. 2014)
+	bigDataUrl http://gattaca.imppc.org/genome_browser/lplab/IRB_hg19/H3k27ac_HI_32_hg19-extended_compressed_RPKM.bw
+	visibility full
+	smoothingWindow 2
+	windowingFunction mean
+	autoScale on
+	alwaysZero on
+	configurable on
+	priority 1
+	color 214,26,70
+
+	track H3K4me1_HI32
+	parent IsletHistones
+	type bigWig
+	shortLabel H3K4me1 Adult Islet HI32 (Pasquali L et al. 2014)
+	longLabel H3K4me1 ChIP-seq in Adult Islet HI32 (Pasquali L et al. 2014)
+	bigDataUrl http://gattaca.imppc.org/genome_browser/lplab/IRB_hg19/H3k4me1_HI_32_hg19-extended_compressed_RPKM.bw
+	visibility full
+	smoothingWindow 2
+	windowingFunction mean
+	autoScale on
+	alwaysZero on
+	configurable on
+	priority 1
+	color 52,9,19
+
+	track H3K4me3_HI32
+	parent IsletHistones
+	type bigWig
+	shortLabel H3K4me3 Adult Islet HI32 (Pasquali L et al. 2014)
+	longLabel H3K4me3 ChIP-seq in Adult Islet HI32 (Pasquali L et al. 2014)
+	bigDataUrl http://gattaca.imppc.org/genome_browser/lplab/IRB_hg19/H3k4me3_HI_32_hg19-extended_compressed_RPKM.bw
+	visibility full
+	smoothingWindow 2
+	windowingFunction mean
+	autoScale on
+	alwaysZero on
+	configurable on
+	priority 1
+	color 52,123,152
+
+	track H3K36me3_HI32
+	parent IsletHistones
+	type bigWig
+	shortLabel H3K36me3 Adult Islet HI32 (Pasquali L et al. 2014)
+	longLabel H3K36me3 ChIP-seq in Adult Islet HI32 (Pasquali L et al. 2014)
+	bigDataUrl http://gattaca.imppc.org/genome_browser/lplab/IRB_hg19/H3k36me3_HI_32_hg19-extended_compressed_RPKM.bw
+	visibility full
+	smoothingWindow 2
+	windowingFunction mean
+	autoScale on
+	alwaysZero on
+	configurable on
+	priority 1
+	color 174,13,122
+
+
+#################################################
+## Adult Islets -- TFs ChIP-seq
+#################################################
+
 track IsletTFs
 superTrack on show
 shortLabel Adult Islet TFs
 longLabel Adult Human Islet Transcription Factor ChIP-seq
 priority 3
+
+##-----------------------------------------------
+## Pasquali L. et al. 2014
+##-----------------------------------------------
 
 	track hiPDX1
 	parent IsletTFs
@@ -166,11 +264,19 @@ priority 3
 		type bigWig
 		color 51,160,44
 
+#################################################
+## Pancreatic Progenitors -- TFs ChIP-seq
+#################################################
+
 track pancreaticProgenitorTFs
 superTrack on show
 shortLabel Pancreatic Progenitor TFs
 longLabel Pancreatic Progenitor Transcription Factor ChIP-seq
 priority 4
+
+##-----------------------------------------------
+## Cebola I. et al. 2015
+##-----------------------------------------------
 
 	track ppPDX1
 	parent pancreaticProgenitorTFs
@@ -218,3 +324,63 @@ priority 4
 		parent ppFOXA2
 		type bigWig
 		color 251,154,153
+
+	track ppONECUT1
+	parent pancreaticProgenitorTFs
+	type bigWig
+	shortLabel ONECUT1 Pancreatic Progenitor PP2 (Cebola I et al. 2015)
+	longLabel ONECUT1 ChIP-seq in Pancreatic Progenitor PP2 (Cebola I et al. 2015)
+	bigDataUrl http://gattaca.imppc.org/genome_browser/lplab/IRB_hg19/hg19_ONECUT1_PP2.bw
+	visibility full
+	smoothingWindow 2
+	windowingFunction mean
+	autoScale on
+	alwaysZero on
+	configurable on
+	priority 1
+	color 255,237,111
+
+	track ppGATA6
+	parent pancreaticProgenitorTFs
+	type bigWig
+	shortLabel GATA6 Pancreatic Progenitor PP4 (Cebola I et al. 2015)
+	longLabel GATA6 ChIP-seq in Pancreatic Progenitor PP4 (Cebola I et al. 2015)
+	bigDataUrl http://gattaca.imppc.org/genome_browser/lplab/IRB_hg19/hg19_GATA6eta_PP4.bw
+	visibility full
+	smoothingWindow 2
+	windowingFunction mean
+	autoScale on
+	alwaysZero on
+	configurable on
+	priority 1
+	color 177,89,40
+
+	track ppTEAD1
+	parent pancreaticProgenitorTFs
+	type bigWig
+	shortLabel TEAD1 Pancreatic Progenitors (Cebola I et al. 2015)
+	longLabel TEAD1 ChIP-seq in Pancreatic Progenitors (Cebola I et al. 2015)
+	bigDataUrl http://gattaca.imppc.org/genome_browser/lplab/IRB_hg19/hg19_TEAD1_PP.bw
+	visibility full
+	smoothingWindow 2
+	windowingFunction mean
+	autoScale on
+	alwaysZero on
+	configurable on
+	priority 1
+	color 178,223,138
+
+	track ppGATA6
+	parent pancreaticProgenitorTFs
+	type bigWig
+	shortLabel GATA6 Pancreatic Progenitor PP2 (Cebola I et al. 2015)
+	longLabel GATA6 ChIP-seq in Pancreatic Progenitor PP2 (Cebola I et al. 2015)
+	bigDataUrl http://gattaca.imppc.org/genome_browser/lplab/IRB_hg19/hg19_GATA6_PP2.bw
+	visibility full
+	smoothingWindow 2
+	windowingFunction mean
+	autoScale on
+	alwaysZero on
+	configurable on
+	priority 1
+	color 253,191,111

@@ -14,6 +14,11 @@ priority 3
 	longLabel PDX1 ChIP-seq in Adult Human Islets
 	visibility full
 	aggregate transparentOverlay
+	smoothingWindow 2
+	windowingFunction mean
+	autoScale on
+	alwaysZero on
+	color 31,120,180
 	showSubtrackColorOnUi on
 	priority 1
 
@@ -23,7 +28,6 @@ priority 3
 		longLabel PDX1 ChIP-seq in HI(32) (Pasquali L et al. 2014)
 		parent hiPDX1
 		type bigWig
-		color 31,120,180
 
 		track PDX1_HI45
 		bigDataUrl http://gattaca.imppc.org/genome_browser/lplab/IRB_hg19/hg19_PDX1_HI45.bw
@@ -31,7 +35,6 @@ priority 3
 		longLabel PDX1 ChIP-seq in HI(45) (Pasquali L et al. 2014)
 		parent hiPDX1
 		type bigWig
-		color 31,120,180
 
 	track hiFOXA2
 	parent IsletTFs
@@ -41,6 +44,10 @@ priority 3
 	longLabel FOXA2 ChIP-seq in Adult Human Islets
 	visibility full
 	aggregate transparentOverlay
+	smoothingWindow 2
+	windowingFunction mean
+	autoScale on
+	alwaysZero on
 	showSubtrackColorOnUi on
 	priority 1
 

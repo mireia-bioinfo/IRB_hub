@@ -13,8 +13,8 @@
 
 track IsletAccessibility
 superTrack on show
-shortLabel Adult Islet Chromatin Accessibility
-longLabel Adult Human Islet Chromatin Accessibility
+shortLabel Chromatin Accessibility in Adult Islets
+longLabel Chromatin Accessibility in Adult Human Islets
 priority 1
 
 ##-----------------------------------------------
@@ -103,8 +103,8 @@ priority 1
 
 track IsletHistones
 superTrack on show
-shortLabel Adult Islet Histone Marks
-longLabel Adult Human Islet Histone Marks ChIP-seq
+shortLabel Histone Marks Adult Islets
+longLabel Histone Marks ChIP-seq in Adult Human Islets
 priority 2
 
 ##-----------------------------------------------
@@ -345,8 +345,8 @@ priority 2
 
 track IsletTFs
 superTrack on show
-shortLabel Adult Islet TFs
-longLabel Adult Human Islet Transcription Factor ChIP-seq
+shortLabel TFs Adult Islets
+longLabel Transcription Factor ChIP-seq in Adult Human Islets
 priority 3
 
 ##-----------------------------------------------
@@ -529,7 +529,7 @@ priority 3
 	showSubtrackColorOnUi on
 	priority 1
 
-		track IME_CTCF_HI32
+		track LP_CTCF_HI32
 		bigDataUrl http://gattaca.imppc.org/genome_browser/lplab/TxFactors_hg19/CTCF_HI32_hg19-extended_compressed_RPKM.bw
 		shortLabel CTCF HI32
 		longLabel CTCF ChIP-seq in Adult Islet HI32
@@ -537,7 +537,7 @@ priority 3
 		color 0,128,255
 		type bigWig
 
-		track IME_CTCF_HI34
+		track LP_CTCF_HI34
 		bigDataUrl http://gattaca.imppc.org/genome_browser/lplab/TxFactors_hg19/CTCF_HI34_hg19-extended_compressed_RPKM.bw
 		shortLabel CTCF HI34
 		longLabel CTCF ChIP-seq in Adult Islet HI34
@@ -545,7 +545,7 @@ priority 3
 		color 0,128,255
 		type bigWig
 
-		track IME_CTCF_HI22
+		track LP_CTCF_HI22
 		bigDataUrl http://gattaca.imppc.org/genome_browser/lplab/TxFactors_hg19/CTCF_HI22_hg19-extended_compressed_RPKM.bw
 		shortLabel CTCF HI22
 		longLabel CTCF ChIP-seq in Adult Islet HI22
@@ -683,8 +683,8 @@ priority 3
 
 track pancreaticProgenitorTFs
 superTrack on show
-shortLabel Pancreatic Progenitor TFs
-longLabel Pancreatic Progenitor Transcription Factor ChIP-seq
+shortLabel TFs Pancreatic Progenitors
+longLabel Transcription Factor ChIP-seq in Pancreatic Progenitors
 priority 4
 
 ##-----------------------------------------------

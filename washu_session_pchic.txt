@@ -1,0 +1,375 @@
+[
+## Islet TAD-like
+{
+  "type":"bed",
+  "name":"Islet_TAD-like",
+  "url":"https://raw.githubusercontent.com/mireia-bioinfo/IRB_hub/master/hg19/Islets.PC-HiC.domains.bed.gz",
+  "mode":6,
+  "qtc":{"pth":"#800000","nth":"#000099","thtype":0,"thmin":0,"thmax":10,"thpercentile":95,"height":20,"summeth":1,"textcolor":"#000000",
+"fontsize":"8pt","fontfamily":"sans-serif","fontbold":false,
+         "bedcolor":"rgb(138, 43, 226)"},
+  "metadata":{},
+},
+## Islet lncRNAs
+{ 
+  "type":"hammock",
+  "name":"Islet_lncRNAs",
+  "url":"https://raw.githubusercontent.com/mireia-bioinfo/IRB_hub/master/hg19/full_transcripts_lncRNA_list.December1st2015.geneNames.classification.hammock.txt.gz",
+  "mode":3,
+  "qtc":{"anglescale":1,"pr":255,"pg":0,"pb":0,"nr":0,"ng":0,"nb":230,"pth":"#800000",
+    "nth":"#000099","thtype":0,"thmin":0,"thmax":10,"thpercentile":95,"height":50,
+    "summeth":1,"textcolor":"#000000","fontsize":"8pt","fontfamily":"sans-serif",
+    "fontbold":false,"bedcolor":"#336666"},
+  "metadata":{},
+  "categories":{"1":["Intergenic","#000000"],"2":["Bidirectional","#0080FF"],"3":["AntiSense","#00CCCC"],"4":["Sense","#CC0000"],"-1":["no information","transparent"]},
+},
+# Islet ensembl
+{
+  "type":"hammock",
+  "name":"Islet_ensembl",
+  "url":"https://raw.githubusercontent.com/mireia-bioinfo/IRB_hub/master/hg19/ensemblGenes_HomoSapiens.GRCh37.75.PIclassification.hammock.txt.gz",
+  "mode":3,
+  "qtc":{"anglescale":1,"pr":0,"pg":0,"pb":0,"nr":0,"ng":0,"nb":230,"pth":"rgb(0, 0, 0)",
+         "nth":"#000099","thtype":1,"thmin":0,"thmax":6,"thpercentile":95,"height":25,
+         "summeth":1,"textcolor":"#000000","fontsize":"8pt","fontfamily":"sans-serif",
+         "fontbold":false,"bedcolor":"#336666"},
+  "metadata":{},
+  "categories":{"1":["NonExpressed","#000000"],"2":["Acinar","#FF0000"],"3":["IsletSpecific","#00CC66"],"4":["Expressed","#0080FF"],"5":["UnClassified","#A0A0A0"],"-1":["no information","transparent"]},
+},
+# Islet ChromHMM
+{
+  "type":"categorical",
+  "name":"Islet_ChromHMM",
+  "url":"https://raw.githubusercontent.com/mireia-bioinfo/IRB_hub/master/hg19/islet_15.ChromHMM.categorical.txt.gz",
+  "mode":1,
+  "qtc":{"anglescale":1,"height":15},
+  "metadata":{},
+  "categories":{"1":["PcG repressed","#000000"],"2":["Quiescent 1","#ffffff"],"3":["Weak Heterochromatin","#c0c0c0"],
+                "4":["Strong Heterochromatin","#c0c0c0"],"5":["Transcription","#cc00cc"],"6":["Quiescent 2","#ffffff"],
+                "7":["Flanking enhancer 1","#ff8000"],"8":["Flankin enhancer 2","#ff8000"],"9":["Strong enhancer","#ff0000"],
+                "10":["Weak enhancer","#ff8000"],"11":["Quiescent 3","#ffffff"],"12":["Inactive enhancer","#ffff00"],
+                "13":["Bivalent promoter","#33ffff"],"14":["Promoters","#3333ff"],"15":["CTCF","#00cc00"],
+                "-1":["no information","transparent"]},
+},
+# ATAC HI141
+{
+  "type":"bigwig",
+  "name":"ATAC-HI141",
+  "url":"https://ndownloader.figshare.com/files/24598592?private_link=fe54905645ac714603f0",
+  "mode":1,
+  "fixedscale":{"min":0,"max":30},
+  "qtc":{"anglescale":1,"pr":100,"pg":0,"pb":150,"nr":0,"ng":102,"nb":204,"pth":"#0080ff","nth":"#800000",
+         "thtype":0,"thmin":0,"thmax":10,"thpercentile":90,"height":40,"summeth":1},
+  "metadata":{},
+},
+# ATAC-HI138 
+{
+  "type":"bigwig",
+  "name":"ATAC-HI138",
+  "url":"https://ndownloader.figshare.com/files/24598589?private_link=fe54905645ac714603f0",
+  "mode":1,
+  "fixedscale":{"min":0,"max":30},
+  "qtc":{"anglescale":1,"pr":100,"pg":0,"pb":150,"nr":0,"ng":102,"nb":204,"pth":"#0080ff","nth":"#800000",
+         "thtype":0,"thmin":0,"thmax":10,"thpercentile":90,"height":40,"summeth":1},
+  "metadata":{},
+},
+# ATAC-HI132 
+{
+  "type":"bigwig",
+  "name":"ATAC-HI132",
+  "url":"https://ndownloader.figshare.com/files/24598586?private_link=fe54905645ac714603f0",
+  "mode":1,
+  "fixedscale":{"min":0,"max":30},
+  "qtc":{"anglescale":1,"pr":100,"pg":0,"pb":150,"nr":0,"ng":102,"nb":204,"pth":"#0080ff","nth":"#800000",
+         "thtype":0,"thmin":0,"thmax":10,"thpercentile":90,"height":40,"summeth":1},
+  "metadata":{},
+},
+# SMCA1-HI128
+{
+  "type":"bigwig",
+  "name":"Cohesin-HI128",
+  "url":"https://ndownloader.figshare.com/files/24598703?private_link=fe54905645ac714603f0",
+  "mode":1,
+  "fixedscale":{"min":0,"max":30},
+  "qtc":{"anglescale":1,"pr":205,"pg":100,"pb":255,"nr":255,"ng":0,"nb":0,"pth":"#CC99FF","nth":"#800000",
+         "thtype":0,"thmin":0,"thmax":10,"thpercentile":90,"height":40,"summeth":1},
+  "metadata":{},
+},
+# SMCA1-HI13
+{
+  "type":"bigwig",
+  "name":"Cohesin-HI13",
+  "url":"https://ndownloader.figshare.com/files/24598694?private_link=fe54905645ac714603f0",
+  "mode":1,
+  "fixedscale":{"min":0,"max":30},
+  "qtc":{"anglescale":1,"pr":205,"pg":100,"pb":255,"nr":255,"ng":0,"nb":0,"pth":"#CC99FF","nth":"#800000",
+         "thtype":0,"thmin":0,"thmax":10,"thpercentile":90,"height":40,"summeth":1},
+  "metadata":{},
+},
+# SMCA1-HI123
+{
+  "type":"bigwig",
+  "name":"Cohesin-HI123",
+  "url":"https://ndownloader.figshare.com/files/24598697?private_link=fe54905645ac714603f0",
+  "mode":1,
+  "fixedscale":{"min":0,"max":30},
+  "qtc":{"anglescale":1,"pr":205,"pg":100,"pb":255,"nr":255,"ng":0,"nb":0,"pth":"#CC99FF","nth":"#800000",
+         "thtype":0,"thmin":0,"thmax":10,"thpercentile":90,"height":40,"summeth":1},
+  "metadata":{},
+},
+# CTCF-HI32
+{
+  "type":"bigwig",
+  "name":"CTCF-HI32",
+  "url":"https://ndownloader.figshare.com/files/24598592?private_link=fe54905645ac714603f0",
+  "mode":1,
+  "fixedscale":{"min":0,"max":20},
+  "qtc":{"anglescale":1,"pr":0,"pg":102,"pb":204,"nr":0,"ng":102,"nb":204,"pth":"#0080ff","nth":"#800000",
+         "thtype":0,"thmin":0,"thmax":10,"thpercentile":90,"height":40,"summeth":1},
+  "metadata":{},
+},
+# CTCF-HI34
+{
+  "type":"bigwig",
+  "name":"CTCF-HI34",
+  "url":"https://ndownloader.figshare.com/files/24598607?private_link=fe54905645ac714603f0",
+  "mode":1,
+  "fixedscale":{"min":0,"max":20},
+  "qtc":{"anglescale":1,"pr":0,"pg":102,"pb":204,"nr":0,"ng":102,"nb":204,"pth":"#0080ff","nth":"#800000",
+         "thtype":0,"thmin":0,"thmax":10,"thpercentile":90,"height":40,"summeth":1},
+  "metadata":{},
+},
+# CTCF-HI22
+{
+  "type":"bigwig",
+  "name":"CTCF-HI22",
+  "url":"https://ndownloader.figshare.com/files/24598598?private_link=fe54905645ac714603f0",
+  "mode":1,
+  "fixedscale":{"min":0,"max":20},
+  "qtc":{"anglescale":1,"pr":0,"pg":102,"pb":204,"nr":0,"ng":102,"nb":204,"pth":"#0080ff","nth":"#800000",
+         "thtype":0,"thmin":0,"thmax":10,"thpercentile":90,"height":40,"summeth":1},
+  "metadata":{},
+},
+
+# Mediator-HI135
+{
+  "type":"bigwig",
+  "name":"Mediator-HI135",
+  "url":"https://ndownloader.figshare.com/files/24598652?private_link=fe54905645ac714603f0",
+  "mode":1,
+  "fixedscale":{"min":0,"max":30},
+  "qtc":{"anglescale":1,"pr":128,"pg":128,"pb":128,"nr":255,"ng":0,"nb":0,"pth":"#696969","nth":"#800000",
+         "thtype":0,"thmin":0,"thmax":10,"thpercentile":90,"height":40,"summeth":1},
+  "metadata":{},
+},
+# Mediator-HI131
+{
+  "type":"bigwig",
+  "name":"Mediator-HI131",
+  "url":"https://ndownloader.figshare.com/files/24598646?private_link=fe54905645ac714603f0",
+  "mode":1,
+  "fixedscale":{"min":0,"max":30},
+  "qtc":{"anglescale":1,"pr":128,"pg":128,"pb":128,"nr":255,"ng":0,"nb":0,"pth":"#696969","nth":"#800000",
+         "thtype":0,"thmin":0,"thmax":10,"thpercentile":90,"height":40,"summeth":1},
+  "metadata":{},
+},
+# Mediator-HI132
+{
+  "type":"bigwig",
+  "name":"Mediator-HI132",
+  "url":"https://ndownloader.figshare.com/files/24598649?private_link=fe54905645ac714603f0",
+  "mode":1,
+  "fixedscale":{"min":0,"max":30},
+  "qtc":{"anglescale":1,"pr":128,"pg":128,"pb":128,"nr":255,"ng":0,"nb":0,"pth":"#696969","nth":"#800000",
+         "thtype":0,"thmin":0,"thmax":10,"thpercentile":90,"height":40,"summeth":1},
+  "metadata":{}
+},
+# H3K4me3-HI32
+{
+  "type":"bigwig",
+  "name":"H3K4me3-HI32",
+  "url":"https://raw.githubusercontent.com/mireia-bioinfo/IRB_hub/master/hg19/H3K4ME3_HI32.bw",
+  "mode":1,
+  "fixedscale":{"min":0,"max":30},
+  "qtc":{"anglescale":1,"pr":0,"pg":155,"pb":0,"nr":0,"ng":155,"nb":0,"pth":"#008000","nth":"#800000","thtype":0,"thmin":0,"thmax":10,"thpercentile":90,"height":40,"summeth":1},
+  "metadata":{}
+},
+# H3K4me3-HI25
+{
+  "type":"bigwig",
+  "name":"H3K4me3-HI25",
+  "url":"https://ndownloader.figshare.com/files/24598616?private_link=fe54905645ac714603f0",
+  "mode":1,
+  "fixedscale":{"min":0,"max":30},
+  "qtc":{"anglescale":1,"pr":0,"pg":155,"pb":0,"nr":0,"ng":155,"nb":0,"pth":"#008000","nth":"#800000","thtype":0,"thmin":0,"thmax":10,"thpercentile":90,"height":40,"summeth":1},
+  "metadata":{}
+},
+# H3K27ac-HI135
+{
+  "type":"bigwig",
+  "name":"H3K27ac-HI135",
+  "url":"https://ndownloader.figshare.com/files/24598628?private_link=fe54905645ac714603f0",
+  "mode":1,
+  "fixedscale":{"min":0,"max":30},
+  "qtc":{"anglescale":1,"pr":255,"pg":0,"pb":0,"nr":255,"ng":0,"nb":0,"pth":"#FF0000","nth":"#800000","thtype":0,"thmin":0,"thmax":10,"thpercentile":90,"height":40,"summeth":1},
+  "metadata":{}
+},
+# H3K27ac-HI131
+{
+  "type":"bigwig",
+  "name":"H3K27ac-HI131",
+  "url":"https://ndownloader.figshare.com/files/24598622?private_link=fe54905645ac714603f0",
+  "mode":1,
+  "fixedscale":{"min":0,"max":30},
+  "qtc":{"anglescale":1,"pr":255,"pg":0,"pb":0,"nr":255,"ng":0,"nb":0,"pth":"#FF0000","nth":"#800000","thtype":0,"thmin":0,"thmax":10,"thpercentile":90,"height":40,"summeth":1},
+  "metadata":{}
+},
+# H3K27ac-HI132
+{
+  "type":"bigwig",
+  "name":"H3K27ac-HI132",
+  "url":"https://ndownloader.figshare.com/files/24598625?private_link=fe54905645ac714603f0",
+  "mode":1,
+  "fixedscale":{"min":0,"max":30},
+  "qtc":{"anglescale":1,"pr":255,"pg":0,"pb":0,"nr":255,"ng":0,"nb":0,"pth":"#FF0000","nth":"#800000","thtype":0,"thmin":0,"thmax":10,"thpercentile":90,"height":40,"summeth":1},
+  "metadata":{}
+},
+# TD2-FG SNPs
+{
+  "type":"hammock",
+  "name":"TD2-FG SNPs",
+  "url":"http://jferrerlab:langerhans411@wmde-ictem-sftp.hh.med.ic.ac.uk/aa/tracksDirectory/WashU/T2D.FG.Feb2018_washU.hammock.bed.gz",
+  "mode":6,
+  "qtc":{"anglescale":1,"pr":0,"pg":0,"pb":0,"nr":0,"ng":0,"nb":0,"pth":"rgb(0, 0, 0)","thtype":0,"thmin":0,"thmax":10,"thpercentile":90,"height":15,"summeth":1},
+  "metadata":{},
+},
+#Super-enhancers
+{
+  "type":"bed",
+  "name":"Super-enhancers",
+  "url":"https://raw.githubusercontent.com/mireia-bioinfo/IRB_hub/master/hg19/Active_enhancers_all_merged_Gateway_SuperEnhancers_HI135_sorted.bed.gz",
+  "mode":6,
+  "qtc":{"anglescale":1,"pr":128,"pg":0,"pb":0,"nr":0,"ng":0,"nb":230,"pth":"rgb(255, 0, 0)",
+         "nth":"#000099","thtype":1,"thmin":0,"thmax":1,"thpercentile":95,"height":15,"summeth":1,"textcolor":"#000000",
+         "fontsize":"8pt","fontfamily":"sans-serif","fontbold":false},
+  "metadata":{}
+},
+# Enhancer_clusters
+{
+  "type":"bed",
+  "name":"Enhancer_clusters",
+  "url":"https://raw.githubusercontent.com/mireia-bioinfo/IRB_hub/master/hg19/HI.EnhancerClusters.HighlyBound_2quartiles.hg19_sorted.bed.gz",
+  "mode":6,
+  "qtc":{"anglescale":1,"pr":0,"pg":0,"pb":255,"nr":0,"ng":0,"nb":230,"pth":"rgb(0, 128, 0)",
+         "nth":"#000099","thtype":1,"thmin":0,"thmax":1,"thpercentile":95,"height":15,"summeth":1,"textcolor":"#000000",
+         "fontsize":"8pt","fontfamily":"sans-serif","fontbold":false},
+  "metadata":{}
+},
+# Stretch-enhancers
+{
+  "type":"bed",
+  "name":"Stretch-enhancers",
+  "url":"https://raw.githubusercontent.com/mireia-bioinfo/IRB_hub/master/hg19/Islets.stretchEnhancers_sorted.bed.gz",
+  "mode":6,
+  "qtc":{"anglescale":1,"pr":128,"pg":0,"pb":0,"nr":0,"ng":0,"nb":230,"pth":"rgb(0, 38, 0)",
+         "nth":"#000099","thtype":1,"thmin":0,"thmax":1,"thpercentile":95,"height":15,"summeth":1,"textcolor":"#000000",
+         "fontsize":"8pt","fontfamily":"sans-serif","fontbold":false},
+  "metadata":{}
+},
+## Enhancer hubs
+{
+  "type":"hammock",
+  "name":"Enhancer_hubs",
+  "url":"http://jferrerlab:langerhans411@wmde-ictem-sftp.hh.med.ic.ac.uk/aa/tracksDirectory/WashU/EHubs_washU.hammock_sorted.txt.gz",
+  "mode":3,
+  "qtc":{"anglescale":1,"pr":255,"pg":0,"pb":0,"nr":0,"ng":0,"nb":230,"pth":"#000099","nth":"#800000",
+    "thtype":0,"thmin":0,"thmax":10,"thpercentile":95,"height":50,"summeth":1,"textcolor":"#000000",
+    "fontsize":"8pt","fontfamily":"sans-serif","fontbold":false,"bedcolor":"rgb(255, 0, 0)"},
+  "metadata":{},
+},
+# Islet Regulome
+{
+  "type":"categorical",
+  "name":"Islet_Regulome",
+  "url":"https://raw.githubusercontent.com/mireia-bioinfo/IRB_hub/master/hg19/NewRegulome.washU.categorical.txt.gz", 
+  "mode":1,
+  "qtc":{"anglescale":1,"height":15},
+  "metadata":{},
+  "categories":{"1":["Active promoter","rgb(0, 155, 0)"],"2":["Active promoters - CTCF","rgb(0, 155, 0)"],
+                "3":["Active enhancer I","#ff0000"],"4":["Active enhancer I - CTCF","#ff0000"],
+                "5":["Active enhancer II","#ff3333"], "6":["Active enhancer II - CTCF", "#ff3333"], 
+                "7":["Active enhancer III","#ff3333"], "8":["Active enhancer III - CTCF", "#ff3333"], 
+                "9":["Inactive enhancer", "#606060"], "10":["Inactive enhancer - CTCF", "#606060"],
+                "11":["Inactive open chromatin region", "#000000"], "13":["Strong CTCF I", "#0066cc"], 
+                "14":["Strong CTCF II", "#006600"], "12":["Inactive open chromatin region - CTCF", "#000000"],
+                "-1":["no information","transparent"]},
+},
+# pcHi-C_probes
+{"type":"bed","name":"pcHi-C_probes","url":"https://raw.githubusercontent.com/mireia-bioinfo/IRB_hub/master/hg19/PC-HiC.probes.bed.gz","mode":6,"qtc":{"anglescale":1,"pr":255,"pg":0,"pb":0,"nr":0,"ng":0,"nb":230,"pth":"rgb(0, 0, 0)","nth":"#000099","thtype":1,"thmin":0,"thmax":1,"thpercentile":95,"height":15,"summeth":1,"textcolor":"#000000","fontsize":"5pt","fontfamily":"sans-serif","fontbold":false,"bedcolor":"#336666","bg":null},"metadata":{}},
+#pcHi-C_islets
+{
+  "type":"interaction",
+  "name":"pcHi-C_islets",
+  "url":"https://raw.githubusercontent.com/mireia-bioinfo/IRB_hub/master/hg19/PC-HiC.PI.Interactions.visualization_only.txt.gz",
+  "mode":4,
+  "height":40,
+  "qtc":{"anglescale":1,"textcolor":"#000000","thtype":0,"fontsize":"8pt","fontfamily":"sans-serif","fontbold":false,"pr":184,"pg":0,"pb":138,"nr":0,"ng":99,"nb":133,"pcolorscore":35.74,"ncolorscore":0,"pfilterscore":0,"nfilterscore":0},
+  "metadata":{}
+},
+# pcHi-C_erythroblasts
+{
+  "type":"interaction",
+  "name":"pcHi-C_erythroblasts",
+  "url":"https://raw.githubusercontent.com/mireia-bioinfo/IRB_hub/master/hg19/PC-HiC.Ery.Interactions.visualization_only.txt.gz",
+  "mode":4,
+  "height":40,
+"qtc":{"anglescale":1,"textcolor":"#000000","thtype":0,"fontsize":"8pt","fontfamily":"sans-serif","fontbold":false,"pr":184,"pg":0,"pb":138,"nr":0,"ng":99,"nb":133,"pcolorscore":35.56,"ncolorscore":0,"pfilterscore":0,"nfilterscore":0},
+  "metadata":{}
+},
+# pcHi-C_macrophages
+{
+  "type":"interaction",
+  "name":"pcHi-C_macrophages",
+  "url":"https://raw.githubusercontent.com/mireia-bioinfo/IRB_hub/master/hg19/PC-HiC.Mac1.Interactions.visualization_only.txt.gz",
+  "mode":4,
+  "height":40,
+  "qtc":{"anglescale":1,"textcolor":"#000000","thtype":0,"fontsize":"8pt","fontfamily":"sans-serif","fontbold":false,"pr":184,"pg":0,"pb":138,"nr":0,"ng":99,"nb":133,"pcolorscore":36.41,"ncolorscore":0,"pfilterscore":0,"nfilterscore":0},
+  "metadata":{}
+},
+# pcHi-C_naive_CD4+_Tcells
+{
+  "type":"interaction",
+  "name":"pcHi-C_naive_CD4+_Tcells",
+  "url":"https://raw.githubusercontent.com/mireia-bioinfo/IRB_hub/master/hg19/PC-HiC.NCD4.Interactions.visualization_only.txt.gz",
+  "mode":4,
+  "height":40,
+  "qtc":{"anglescale":1,"textcolor":"#000000","thtype":0,"fontsize":"8pt","fontfamily":"sans-serif","fontbold":false,"pr":184,"pg":0,"pb":138,"nr":0,"ng":99,"nb":133,"pcolorscore":34.25,"ncolorscore":0,"pfilterscore":0,"nfilterscore":0},
+  "metadata":{}
+},
+# pcHi-C_total_B_lymphocytes
+{
+  "type":"interaction",
+  "name":"pcHi-C_total_B_lymphocytes",
+  "url":"https://raw.githubusercontent.com/mireia-bioinfo/IRB_hub/master/hg19/PC-HiC.TotalB.Interactions.visualization_only.txt.gz",
+  "mode":4,
+  "height":40,
+  "qtc":{"anglescale":1,"textcolor":"#000000","thtype":0,"fontsize":"8pt","fontfamily":"sans-serif","fontbold":false,"pr":184,"pg":0,"pb":138,"nr":0,"ng":99,"nb":133,"pcolorscore":45.18,"ncolorscore":0,"pfilterscore":0,"nfilterscore":0},
+  "metadata":{}
+},
+#
+{"type":"bed","name":"HindIII","url":"https://raw.githubusercontent.com/mireia-bioinfo/IRB_hub/master/hg19/HindIII.hg19.txt.gz","mode":2,"qtc":{"anglescale":1,"pr":255,"pg":0,"pb":0,"nr":0,"ng":0,"nb":230,"pth":"#800000","nth":"#000099","thtype":0,"thmin":0,"thmax":10,"thpercentile":95,"height":50,"summeth":1,"textcolor":"#000000","fontsize":"8pt","fontfamily":"sans-serif","fontbold":false,"bedcolor":"#336666"},"metadata":{}},
+#
+{"type":"native_track","list":[{"name":"rmsk_all","mode":7,"qtc":{"anglescale":1,"pr":255,"pg":0,"pb":0,"nr":0,"ng":0,"nb":230,"pth":"#800000","nth":"#000099","thtype":0,"thmin":0,"thmax":10,"thpercentile":95,"height":35,"summeth":1,"textcolor":"#000000","fontsize":"8pt","fontfamily":"sans-serif","fontbold":false,"bedcolor":"#336666"},"showscoreidx":2,"scorenamelst":["Smith-Waterman score","SW score normalized by length","1-divergence%"],"scorescalelst":[
+#
+{"type":0},
+#
+{"type":0},
+#
+{"type":0}],"metadata":{},"categories":{"1":["SINE - short interspersed nuclear elements","#cc0000"],"2":["LINE - long interspersed nuclear element","#FF6600"],"3":["LTR - long terminal repeat element","#006600"],"4":["DNA transposon","#4A72E8"],"5":["Simple repeat, micro-satellite","#AB833B"],"6":["Satellite repeat","#660000"],"7":["Low complexity repeat","#663333"],"8":["RNA repeat","#cc33ff"],"9":["Other repeats","#488E8E"],"10":["Unknown","#5C5C5C"],"-1":["no information","transparent"]}},{"name":"refGene","mode":3,"qtc":{"anglescale":1,"pr":255,"pg":0,"pb":0,"nr":0,"ng":0,"nb":230,"pth":"#800000","nth":"#000099","thtype":0,"thmin":0,"thmax":10,"thpercentile":95,"height":50,"summeth":1,"textcolor":"#000000","fontsize":"8pt","fontfamily":"sans-serif","fontbold":false,"bedcolor":"#002EB8"},"metadata":{},"details":{"source":"UCSC Genome Browser","download date":"Jan 1, 2012"}}]},
+#
+{"type":"metadata","vocabulary_set":{"md1":{"terms":{"11":["Real"],"12":["Imputed"],"21":["E001"],"22":["E002"],"23":["E003"],"24":["E004"],"25":["E005"],"26":["E006"],"27":["E007"],"28":["E008"],"29":["E009"],"31":["Alignment"],"32":["Signal"],"33":["macs2signal_pval"],"34":["macs2signal_foldChange"],"35":["narrowPeak"],"36":["broadPeak"],"37":["gappedPeak"],"38":["PrimaryHMM"],"39":["AuxiliaryHMM"],"210":["E010"],"211":["E011"],"212":["E012"],"213":["E013"],"214":["E014"],"215":["E015"],"216":["E016"],"217":["E017"],"218":["E018"],"219":["E019"],"220":["E020"],"221":["E021"],"222":["E022"],"223":["E023"],"224":["E024"],"225":["E025"],"226":["E026"],"227":["E027"],"228":["E028"],"229":["E029"],"230":["E030"],"231":["E031"],"232":["E032"],"233":["E033"],"234":["E034"],"235":["E035"],"236":["E036"],"237":["E037"],"238":["E038"],"239":["E039"],"240":["E040"],"241":["E041"],"242":["E042"],"243":["E043"],"244":["E044"],"245":["E045"],"246":["E046"],"247":["E047"],"248":["E048"],"249":["E049"],"250":["E050"],"251":["E051"],"252":["E052"],"253":["E053"],"254":["E054"],"255":["E055"],"256":["E056"],"257":["E057"],"258":["E058"],"259":["E059"],"260":["E061"],"261":["E062"],"262":["E063"],"263":["E065"],"264":["E066"],"265":["E067"],"266":["E068"],"267":["E069"],"268":["E070"],"269":["E071"],"270":["E072"],"271":["E073"],"272":["E074"],"273":["E075"],"274":["E076"],"275":["E077"],"276":["E078"],"277":["E079"],"278":["E080"],"279":["E081"],"280":["E082"],"281":["E083"],"282":["E084"],"283":["E085"],"284":["E086"],"285":["E087"],"286":["E088"],"287":["E089"],"288":["E090"],"289":["E091"],"290":["E092"],"291":["E093"],"292":["E094"],"293":["E095"],"294":["E096"],"295":["E097"],"296":["E098"],"297":["E099"],"298":["E100"],"299":["E101"],"310":["ImputedHMM"],"2100":["E102"],"2101":["E103"],"2102":["E104"],"2103":["E105"],"2104":["E106"],"2105":["E107"],"2106":["E108"],"2107":["E109"],"2108":["E110"],"2109":["E111"],"2110":["E112"],"2111":["E113"],"2112":["E114"],"2113":["E115"],"2114":["E116"],"2115":["E117"],"2116":["E118"],"2117":["E119"],"2118":["E120"],"2119":["E121"],"2120":["E122"],"2121":["E123"],"2122":["E124"],"2123":["E125"],"2124":["E126"],"2125":["E127"],"2126":["E128"],"2127":["E129"]},"vocabulary":
+#
+{"type":["11","12"],"EID":["21","22","23","24","25","26","27","28","29","210","211","212","213","214","215","216","217","218","219","220","221","222","223","224","225","226","227","228","229","230","231","232","233","234","235","236","237","238","239","240","241","242","243","244","245","246","247","248","249","250","251","252","253","254","255","256","257","258","259","260","261","262","263","264","265","266","267","268","269","270","271","272","273","274","275","276","277","278","279","280","281","282","283","284","285","286","287","288","289","290","291","292","293","294","295","296","297","298","299","2100","2101","2102","2103","2104","2105","2106","2107","2108","2109","2110","2111","2112","2113","2114","2115","2116","2117","2118","2119","2120","2121","2122","2123","2124","2125","2126","2127"],"View":["31","32","33","34","35","36","37","38","39","310"]},"source":"http://vizhub.wustl.edu/public/hg19/roadmap_consolidated_02182015.json.md.hmm"},"md2":"http://vizhub.wustl.edu/metadata/human/Samples","md3":"http://vizhub.wustl.edu/metadata/human/Donor","md4":"http://vizhub.wustl.edu/metadata/Experimental_assays","md5":"http://vizhub.wustl.edu/metadata/Institutions"},"show_terms":{"md2":["Sample"],"md4":["Assay"],"md1":["View"]}},
+#
+{"type":"coordinate_override","coord":"chr20,17704223,chr20,23979730"}
+]

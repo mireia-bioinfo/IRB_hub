@@ -172,7 +172,7 @@ priority 2
 		shortLabel H3K27ac HI32
 		longLabel H3K27ac ChIP-seq in Adult Islet HI32
 		parent hiH3K27ac
-		color 214,26,70
+		color 255,0,0
 		type bigWig
 
 		track H3K27ac_HI45
@@ -180,7 +180,7 @@ priority 2
 		shortLabel H3K27ac HI45
 		longLabel H3K27ac ChIP-seq in Adult Islet HI45
 		parent hiH3K27ac
-		color 214,26,70
+		color 255,0,0
 		type bigWig
 
 	track hiH3K4me1
@@ -244,7 +244,7 @@ priority 2
 		shortLabel H3K4me3 HI21
 		longLabel H3K4me3 ChIP-seq in Adult Islet HI21
 		parent hiH3K4me3
-		color 52,9,19
+		color 0,128,0
 		type bigWig
 
 		track H3K4me3_HI25
@@ -252,7 +252,7 @@ priority 2
 		shortLabel H3K4me3 HI25
 		longLabel H3K4me3 ChIP-seq in Adult Islet HI25
 		parent hiH3K4me3
-		color 52,123,152
+		color 0,128,0
 		type bigWig
 
 		track H3K4me3_HI32
@@ -260,7 +260,83 @@ priority 2
 		shortLabel H3K4me3 HI32
 		longLabel H3K4me3 ChIP-seq in Adult Islet HI32
 		parent hiH3K4me3
-		color 52,123,152
+		color 0,128,0
+		type bigWig
+
+##-----------------------------------------------
+## Miguel-Escalada I. et al. 2019
+##-----------------------------------------------
+
+	track IME_H3K4me3
+	parent IsletHistones
+	type bigWig
+	container multiWig
+	shortLabel H3K4me3 Adult Islets (Miguel-Escalada I et al. 2019)
+	longLabel H3K4me3 ChIP-seq in Adult Islets (Miguel-Escalada I et al. 2019)
+	visibility full
+	aggregate transparentOverlay
+	smoothingWindow 2
+	windowingFunction mean
+	autoScale on
+	alwaysZero on
+	configurable on
+	showSubtrackColorOnUi on
+	priority 1
+
+		track IME_H3K4me3_HI25
+		bigDataUrl https://ndownloader.figshare.com/files/24598616?private_link=fe54905645ac714603f0
+		shortLabel H3K27ac HI25
+		longLabel H3K27ac ChIP-seq in Adult Islet HI25
+		parent IME_H3K4me3
+		color 0,128,0
+		type bigWig
+
+		track IME_H3K4me3_HI32
+		bigDataUrl https://ndownloader.figshare.com/files/24598619?private_link=fe54905645ac714603f0
+		shortLabel H3K27ac HI32
+		longLabel H3K27ac ChIP-seq in Adult Islet HI32
+		parent IME_H3K4me3
+		color 0,128,0
+		type bigWig
+
+	track IME_H3K27ac
+	parent IsletHistones
+	type bigWig
+	container multiWig
+	shortLabel H3K27ac Adult Islets (Miguel-Escalada I et al. 2019)
+	longLabel H3K27ac ChIP-seq in Adult Islets (Miguel-Escalada I et al. 2019)
+	visibility full
+	aggregate transparentOverlay
+	smoothingWindow 2
+	windowingFunction mean
+	autoScale on
+	alwaysZero on
+	configurable on
+	showSubtrackColorOnUi on
+	priority 1
+
+		track IME_H3K27ac_HI135
+		bigDataUrl https://ndownloader.figshare.com/files/24598628?private_link=fe54905645ac714603f0
+		shortLabel H3K27ac HI135
+		longLabel H3K27ac ChIP-seq in Adult Islet HI135
+		parent IME_H3K27ac
+		color 255,0,0
+		type bigWig
+
+		track IME_H3K27ac_HI131
+		bigDataUrl https://ndownloader.figshare.com/files/24598622?private_link=fe54905645ac714603f0
+		shortLabel H3K27ac HI131
+		longLabel H3K27ac ChIP-seq in Adult Islet HI131
+		parent IME_H3K27ac
+		color 255,0,0
+		type bigWig
+
+		track IME_H3K27ac_HI132
+		bigDataUrl https://ndownloader.figshare.com/files/24598625?private_link=fe54905645ac714603f0
+		shortLabel H3K27ac HI132
+		longLabel H3K27ac ChIP-seq in Adult Islet HI132
+		parent IME_H3K27ac
+		color 255,0,0
 		type bigWig
 
 #################################################
@@ -436,6 +512,170 @@ priority 3
 		parent hiNKX6_1
 		type bigWig
 		color 51,160,44
+
+	track LP_CTCF
+	parent IsletTFs
+	type bigWig
+	container multiWig
+	shortLabel CTCF Adult Islet (Pasquali L et al. 2014)
+	longLabel CTCF ChIP-seq in Adult Human Islets (Pasquali L et al. 2014)
+	visibility full
+	aggregate transparentOverlay
+	smoothingWindow 2
+	windowingFunction mean
+	autoScale on
+	alwaysZero on
+	configurable on
+	showSubtrackColorOnUi on
+	priority 1
+
+		track IME_CTCF_HI32
+		bigDataUrl http://gattaca.imppc.org/genome_browser/lplab/TxFactors_hg19/CTCF_HI32_hg19-extended_compressed_RPKM.bw
+		shortLabel CTCF HI32
+		longLabel CTCF ChIP-seq in Adult Islet HI32
+		parent IME_CTCF
+		color 0,128,255
+		type bigWig
+
+		track IME_CTCF_HI34
+		bigDataUrl http://gattaca.imppc.org/genome_browser/lplab/TxFactors_hg19/CTCF_HI34_hg19-extended_compressed_RPKM.bw
+		shortLabel CTCF HI34
+		longLabel CTCF ChIP-seq in Adult Islet HI34
+		parent IME_CTCF
+		color 0,128,255
+		type bigWig
+
+		track IME_CTCF_HI22
+		bigDataUrl http://gattaca.imppc.org/genome_browser/lplab/TxFactors_hg19/CTCF_HI22_hg19-extended_compressed_RPKM.bw
+		shortLabel CTCF HI22
+		longLabel CTCF ChIP-seq in Adult Islet HI22
+		parent IME_CTCF
+		color 0,128,255
+		type bigWig
+
+##-----------------------------------------------
+## Miguel-Escalada I. et al. 2019
+##-----------------------------------------------
+
+	track IME_cohesin
+	parent IsletTFs
+	type bigWig
+	container multiWig
+	shortLabel Cohesin Adult Islet (Miguel-Escalada I et al. 2019)
+	longLabel Cohesin (SMCA1) ChIP-seq in Adult Human Islets (Miguel-Escalada I et al. 2019)
+	visibility full
+	aggregate transparentOverlay
+	smoothingWindow 2
+	windowingFunction mean
+	autoScale on
+	alwaysZero on
+	configurable on
+	showSubtrackColorOnUi on
+	priority 1
+
+		track IME_cohesin_HI128
+		bigDataUrl https://ndownloader.figshare.com/files/24598703?private_link=fe54905645ac714603f0
+		shortLabel Cohesin HI128
+		longLabel Cohesin (SMCA1) ChIP-seq in Adult Islet HI128
+		parent IME_cohesin
+		color 204,153,255
+		type bigWig
+
+		track IME_cohesin_HI13
+		bigDataUrl https://ndownloader.figshare.com/files/24598694?private_link=fe54905645ac714603f0
+		shortLabel Cohesin HI13
+		longLabel Cohesin (SMCA1) ChIP-seq in Adult Islet HI13
+		parent IME_cohesin
+		color 204,153,255
+		type bigWig
+
+		track IME_cohesin_HI123
+		bigDataUrl https://ndownloader.figshare.com/files/24598697?private_link=fe54905645ac714603f0
+		shortLabel Cohesin HI123
+		longLabel Cohesin (SMCA1) ChIP-seq in Adult Islet HI123
+		parent IME_cohesin
+		color 204,153,255
+		type bigWig
+
+	track IME_CTCF
+	parent IsletTFs
+	type bigWig
+	container multiWig
+	shortLabel CTCF Adult Islet (Miguel-Escalada I et al. 2019)
+	longLabel CTCF ChIP-seq in Adult Human Islets (Miguel-Escalada I et al. 2019)
+	visibility full
+	aggregate transparentOverlay
+	smoothingWindow 2
+	windowingFunction mean
+	autoScale on
+	alwaysZero on
+	configurable on
+	showSubtrackColorOnUi on
+	priority 1
+
+		track IME_CTCF_HI32
+		bigDataUrl https://ndownloader.figshare.com/files/24598604?private_link=fe54905645ac714603f0
+		shortLabel CTCF HI32
+		longLabel CTCF ChIP-seq in Adult Islet HI32
+		parent IME_CTCF
+		color 0,128,255
+		type bigWig
+
+		track IME_CTCF_HI34
+		bigDataUrl https://ndownloader.figshare.com/files/24598607?private_link=fe54905645ac714603f0
+		shortLabel CTCF HI34
+		longLabel CTCF ChIP-seq in Adult Islet HI34
+		parent IME_CTCF
+		color 0,128,255
+		type bigWig
+
+		track IME_CTCF_HI22
+		bigDataUrl https://ndownloader.figshare.com/files/24598598?private_link=fe54905645ac714603f0
+		shortLabel CTCF HI22
+		longLabel CTCF ChIP-seq in Adult Islet HI22
+		parent IME_CTCF
+		color 0,128,255
+		type bigWig
+
+	track IME_mediator
+	parent IsletTFs
+	type bigWig
+	container multiWig
+	shortLabel Mediator Adult Islet (Miguel-Escalada I et al. 2019)
+	longLabel Mediator ChIP-seq in Adult Human Islets (Miguel-Escalada I et al. 2019)
+	visibility full
+	aggregate transparentOverlay
+	smoothingWindow 2
+	windowingFunction mean
+	autoScale on
+	alwaysZero on
+	configurable on
+	showSubtrackColorOnUi on
+	priority 1
+
+		track IME_mediator_HI135
+		bigDataUrl https://ndownloader.figshare.com/files/24598652?private_link=fe54905645ac714603f0
+		shortLabel Mediator HI135
+		longLabel Mediator ChIP-seq in Adult Islet HI135
+		parent IME_mediator
+		color 105,105,105
+		type bigWig
+
+		track IME_mediator_HI131
+		bigDataUrl https://ndownloader.figshare.com/files/24598646?private_link=fe54905645ac714603f0
+		shortLabel Mediator HI131
+		longLabel Mediator ChIP-seq in Adult Islet HI131
+		parent IME_mediator
+		color 105,105,105
+		type bigWig
+
+		track IME_mediator_HI132
+		bigDataUrl https://ndownloader.figshare.com/files/24598649?private_link=fe54905645ac714603f0
+		shortLabel Mediator HI132
+		longLabel Mediator ChIP-seq in Adult Islet HI132
+		parent IME_mediator
+		color 105,105,105
+		type bigWig
 
 #################################################
 ## Pancreatic Progenitors -- TFs ChIP-seq

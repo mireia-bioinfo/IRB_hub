@@ -11,9 +11,91 @@
 ## Adult Islets -- Open chromatin
 #################################################
 
+track IsletAccessibility
+superTrack on show
+shortLabel Adult Islet Chromatin Accessibility
+longLabel Adult Human Islet Chromatin Accessibility
+priority 1
+
 ##-----------------------------------------------
 ## Pasquali L. et al. 2014
 ##-----------------------------------------------
+
+	track LP_FAIREseq
+	parent IsletAccessibility
+	type bigWig
+	container multiWig
+	shortLabel FAIRE-seq Adult Islets (Pasquali L et al. 2014)
+	longLabel Chromatin accessibility by FAIRE-seq in Adult Islets (Pasquali L et al. 2014)
+	visibility full
+	aggregate transparentOverlay
+	smoothingWindow 2
+	windowingFunction mean
+	autoScale on
+	alwaysZero on
+	configurable on
+	showSubtrackColorOnUi on
+	priority 1
+
+		track LP_FAIRE_HI10
+		bigDataUrl http://gattaca.imppc.org/genome_browser/lplab/HistoneModifications_hg19/FAIRE_HI_10_hg19-extended_compressed_RPKM.bw
+		shortLabel FAIRE-seq HI10
+		longLabel FAIRE-seq in Adult Islet HI10
+		parent LP_FAIREseq
+		color 176,187,22
+		type bigWig
+
+		track LP_FAIRE_HI32
+		bigDataUrl http://gattaca.imppc.org/genome_browser/lplab/HistoneModifications_hg19/FAIRE_HI_32_hg19-extended_compressed_RPKM.bw
+		shortLabel FAIRE-seq HI32
+		longLabel FAIRE-seq in Adult Islet HI32
+		parent LP_FAIREseq
+		color 176,187,22
+		type bigWig
+
+##-----------------------------------------------
+## Miguel-Escalada I. et al. 2019
+##-----------------------------------------------
+
+	track IME_ATACseq
+	parent IsletAccessibility
+	type bigWig
+	container multiWig
+	shortLabel ATAC-seq Adult Islets (Miguel-Escalada I et al. 2019)
+	longLabel Chromatin accessibility by ATAC-seq in Adult Islets (Miguel-Escalada I et al. 2019)
+	visibility full
+	aggregate transparentOverlay
+	smoothingWindow 2
+	windowingFunction mean
+	autoScale on
+	alwaysZero on
+	configurable on
+	showSubtrackColorOnUi on
+	priority 1
+
+		track IME_ATAC_HI141
+		bigDataUrl https://ndownloader.figshare.com/files/24598592?private_link=fe54905645ac714603f0
+		shortLabel ATAC-seq HI141
+		longLabel ATAC-seq in Adult Islet HI141
+		parent IME_ATACseq
+		color 176,187,22
+		type bigWig
+
+		track IME_ATAC_HI138
+		bigDataUrl https://ndownloader.figshare.com/files/24598589?private_link=fe54905645ac714603f0
+		shortLabel ATAC-seq HI138
+		longLabel ATAC-seq in Adult Islet HI138
+		parent IME_ATACseq
+		color 176,187,22
+		type bigWig
+
+		track IME_ATAC_HI132
+		bigDataUrl https://ndownloader.figshare.com/files/24598586?private_link=fe54905645ac714603f0
+		shortLabel ATAC-seq HI132
+		longLabel ATAC-seq in Adult Islet HI132
+		parent IME_ATACseq
+		color 176,187,22
+		type bigWig
 
 #################################################
 ## Adult Islets -- Histone Marks ChIP-seq

@@ -186,6 +186,7 @@ priority 2
 	track hiH3K4me1
 	parent IsletHistones
 	type bigWig
+	container multiWig
 	shortLabel H3K4me1 Adult Islets (Pasquali L et al. 2014)
 	longLabel H3K4me1 ChIP-seq in Adult Islets (Pasquali L et al. 2014)
 	visibility full
@@ -225,6 +226,7 @@ priority 2
 	track hiH3K4me3
 	parent IsletHistones
 	type bigWig
+	container multiWig
 	shortLabel H3K4me3 Adult Islets (Pasquali L et al. 2014)
 	longLabel H3K4me3 ChIP-seq in Adult Islets (Pasquali L et al. 2014)
 	visibility full

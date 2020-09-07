@@ -140,21 +140,44 @@ priority 2
 		color 52,9,19
 		type bigWig
 
-	track H3K4me3_HI32
+	track hiH3K4me3
 	parent IsletHistones
 	type bigWig
-	shortLabel H3K4me3 Adult Islet HI32 (Pasquali L et al. 2014)
-	longLabel H3K4me3 ChIP-seq in Adult Islet HI32 (Pasquali L et al. 2014)
-	bigDataUrl http://gattaca.imppc.org/genome_browser/lplab/IRB_hg19/H3k4me3_HI_32_hg19-extended_compressed_RPKM.bw
+	shortLabel H3K4me3 Adult Islets (Pasquali L et al. 2014)
+	longLabel H3K4me3 ChIP-seq in Adult Islets (Pasquali L et al. 2014)
 	visibility full
+	aggregate transparentOverlay
 	smoothingWindow 2
 	windowingFunction mean
 	autoScale on
 	alwaysZero on
 	configurable on
+	showSubtrackColorOnUi on
 	priority 1
-	color 52,123,152
 
+		track H3K4me3_HI21
+		bigDataUrl http://gattaca.imppc.org/genome_browser/lplab/HistoneModifications_hg19/H3k4me3_HI_21_hg19-extended_compressed_RPKM.bw
+		shortLabel H3K4me3 HI21
+		longLabel H3K4me3 ChIP-seq in Adult Islet HI21
+		parent hiH3K4me3
+		color 52,9,19
+		type bigWig
+
+		track H3K4me3_HI25
+		bigDataUrl http://gattaca.imppc.org/genome_browser/lplab/HistoneModifications_hg19/H3k4me3_HI_25_hg19-extended_compressed_RPKM.bw
+		shortLabel H3K4me3 HI25
+		longLabel H3K4me3 ChIP-seq in Adult Islet HI25
+		parent hiH3K4me3
+		color 52,123,152
+		type bigWig
+
+		track H3K4me3_HI32
+		bigDataUrl http://gattaca.imppc.org/genome_browser/lplab/HistoneModifications_hg19/H3k4me3_HI_32_hg19-extended_compressed_RPKM.bw
+		shortLabel H3K4me3 HI32
+		longLabel H3K4me3 ChIP-seq in Adult Islet HI32
+		parent hiH3K4me3
+		color 52,123,152
+		type bigWig
 
 #################################################
 ## Adult Islets -- TFs ChIP-seq

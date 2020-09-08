@@ -37,10 +37,60 @@ visibility pack
 	track IC_classes
 	parent chromatin_maps
 	shortLabel Chromatin Pancratic Progenitors
-	longLabel Pancreatic Progenitors (Cebola I, et al. 2015)
+	longLabel Pancreatic Progenitors (Cebola I et al. 2015)
 	type bigBed 9
 	itemRgb on
 	bigDataUrl https://raw.githubusercontent.com/mireia-bioinfo/IRB_hub/master/hg19/hg19_map_progenitors.bb
+
+#################################################
+## Adult Islets -- Clusters
+#################################################
+
+track enhancer_clusters
+compositeTrack on
+shortLabel Chromatin maps
+longLabel Islet Regulome Browser Chromatin Maps
+visibility pack
+
+#	track IME_classes
+#	parent enhancer_clusters
+#	shortLabel Chromatin Classes
+#	longLabel Adult Islets - Chromatin Classes (Miguel-Escalada I et al. 2019)
+#	type bigBed 9
+#	itemRgb on
+#	bigDataUrl https://raw.githubusercontent.com/mireia-bioinfo/IRB_hub/master/hg19/hg19_map_chromatinClasses.bb
+
+	track IME_superehhancers
+	parent enhancer_clusters
+	shortLabel Super Enhancers
+	longLabel Adult Islets - Super Enhancers (Miguel-Escalada I et al. 2019)
+	type bigBed 4
+	itemRgb on
+	bigDataUrl https://raw.githubusercontent.com/mireia-bioinfo/IRB_hub/master/hg19/hg19_cluster_superEnhancers.bb
+
+	track LP_clusters
+	parent enhancer_clusters
+	shortLabel Enhancer Clusters
+	longLabel Adult Islets - Enhancer Clusters (Pasquali L et al. 2014)
+	type bigBed 4
+	itemRgb on
+	bigDataUrl https://raw.githubusercontent.com/mireia-bioinfo/IRB_hub/master/hg19/hg19_cluster_enhancerClusters.bb
+
+	track SCP_stretch
+	parent enhancer_clusters
+	shortLabel Stretch Enhancers
+	longLabel Adult Islets - Stretch Enhancers (Parker SC et al. 2013)
+	type bigBed 4
+	itemRgb on
+	bigDataUrl https://raw.githubusercontent.com/mireia-bioinfo/IRB_hub/master/hg19/hg19_cluster_stretchEnhancers.bb
+
+	track KJG_COREs
+	parent enhancer_clusters
+	shortLabel COREs
+	longLabel Adult Islet - COREs (Gaulton KJ et al. 2010)
+	type bigBed 4
+	itemRgb on
+	bigDataUrl https://raw.githubusercontent.com/mireia-bioinfo/IRB_hub/master/hg19/hg19_cluster_cores.bb
 
 #################################################
 ## Adult Islets -- Open chromatin

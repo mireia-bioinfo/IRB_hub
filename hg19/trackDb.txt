@@ -49,9 +49,9 @@ visibility pack
 
 track enhancer_clusters
 compositeTrack on
-shortLabel Chromatin maps
-longLabel Islet Regulome Browser Chromatin Maps
-type bigBed
+shortLabel Enhancer Clusters
+longLabel Islet Regulome Browser Enhancer Clusters
+type bigBed 4
 visibility pack
 
 #	track IME_classes

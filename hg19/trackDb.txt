@@ -24,7 +24,7 @@ visibility pack
 	longLabel Adult Islets - Chromatin Classes (Pasquali L et al. 2014)
 	type bigBed 9
 	itemRgb on
-	bigDataUrl https://raw.githubusercontent.com/mireia-bioinfo/IRB_hub/master/hg19/hg19_map_chromatinClasses.bb
+	bigDataUrl https://raw.githubusercontent.com/mireia-bioinfo/IRB_hub/master/hg19/hg19_map_openChromatinClasses.bb
 
 	track SCP_states
 	parent chromatin_maps
@@ -32,7 +32,7 @@ visibility pack
 	longLabel Adult Islets - Chromatin States (Parker SC et al. 2013)
 	type bigBed 9
 	itemRgb on
-	bigDataUrl https://raw.githubusercontent.com/mireia-bioinfo/IRB_hub/master/hg19/hg19_map_chromatinClasses.bb
+	bigDataUrl https://raw.githubusercontent.com/mireia-bioinfo/IRB_hub/master/hg19/hg19_map_chromatinStates.bb
 
 	track IC_classes
 	parent chromatin_maps

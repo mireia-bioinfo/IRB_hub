@@ -344,7 +344,7 @@ priority 2
 #################################################
 
 track IsletTFs
-superTrack on show
+superTrack on
 shortLabel TFs Adult Islets
 longLabel Transcription Factor ChIP-seq in Adult Human Islets
 priority 3
@@ -359,7 +359,7 @@ priority 3
 	container multiWig
 	shortLabel PDX1 Adult Islet (Pasquali L et al. 2014)
 	longLabel PDX1 ChIP-seq in Adult Human Islets (Pasquali L et al. 2014)
-	visibility full
+	visibility hide
 	aggregate transparentOverlay
 	smoothingWindow 2
 	windowingFunction mean
@@ -391,7 +391,7 @@ priority 3
 	container multiWig
 	shortLabel FOXA2 Adult Islet (Pasquali L et al. 2014)
 	longLabel FOXA2 ChIP-seq in Adult Human Islets (Pasquali L et al. 2014)
-	visibility full
+	visibility hide
 	aggregate transparentOverlay
 	smoothingWindow 2
 	windowingFunction mean
@@ -423,7 +423,7 @@ priority 3
 	container multiWig
 	shortLabel MAFB Adult Islet (Pasquali L et al. 2014)
 	longLabel MAFB ChIP-seq in Adult Human Islets (Pasquali L et al. 2014)
-	visibility full
+	visibility hide
 	aggregate transparentOverlay
 	smoothingWindow 2
 	windowingFunction mean
@@ -455,7 +455,7 @@ priority 3
 	container multiWig
 	shortLabel NKX2.2 Adult Islet (Pasquali L et al. 2014)
 	longLabel NKX2.2 ChIP-seq in Adult Human Islets (Pasquali L et al. 2014)
-	visibility full
+	visibility hide
 	aggregate transparentOverlay
 	smoothingWindow 2
 	windowingFunction mean
@@ -487,7 +487,7 @@ priority 3
 	container multiWig
 	shortLabel NKX6.1 Adult Islet (Pasquali L et al. 2014)
 	longLabel NKX6.1 ChIP-seq in Adult Human Islets (Pasquali L et al. 2014)
-	visibility full
+	visibility hide
 	aggregate transparentOverlay
 	smoothingWindow 2
 	windowingFunction mean
@@ -519,7 +519,7 @@ priority 3
 	container multiWig
 	shortLabel CTCF Adult Islet (Pasquali L et al. 2014)
 	longLabel CTCF ChIP-seq in Adult Human Islets (Pasquali L et al. 2014)
-	visibility full
+	visibility hide
 	aggregate transparentOverlay
 	smoothingWindow 2
 	windowingFunction mean
@@ -563,7 +563,7 @@ priority 3
 	container multiWig
 	shortLabel Cohesin Adult Islet (Miguel-Escalada I et al. 2019)
 	longLabel Cohesin (SMCA1) ChIP-seq in Adult Human Islets (Miguel-Escalada I et al. 2019)
-	visibility full
+	visibility hide
 	aggregate transparentOverlay
 	smoothingWindow 2
 	windowingFunction mean
@@ -603,7 +603,7 @@ priority 3
 	container multiWig
 	shortLabel CTCF Adult Islet (Miguel-Escalada I et al. 2019)
 	longLabel CTCF ChIP-seq in Adult Human Islets (Miguel-Escalada I et al. 2019)
-	visibility full
+	visibility hide
 	aggregate transparentOverlay
 	smoothingWindow 2
 	windowingFunction mean
@@ -643,7 +643,7 @@ priority 3
 	container multiWig
 	shortLabel Mediator Adult Islet (Miguel-Escalada I et al. 2019)
 	longLabel Mediator ChIP-seq in Adult Human Islets (Miguel-Escalada I et al. 2019)
-	visibility full
+	visibility hide
 	aggregate transparentOverlay
 	smoothingWindow 2
 	windowingFunction mean
@@ -682,7 +682,7 @@ priority 3
 #################################################
 
 track pancreaticProgenitorTFs
-superTrack on show
+superTrack on
 shortLabel TFs Pancreatic Progenitors
 longLabel Transcription Factor ChIP-seq in Pancreatic Progenitors
 priority 4
@@ -697,7 +697,7 @@ priority 4
 	shortLabel PDX1 Pancreatic Progenitor PP3 (Cebola I et al. 2015)
 	longLabel PDX1 ChIP-seq in Pancreatic Progenitor PP3 (Cebola I et al. 2015)
 	bigDataUrl http://gattaca.imppc.org/genome_browser/lplab/IRB_hg19/hg19_PDX1_PP3.bw
-	visibility full
+	visibility hide
 	smoothingWindow 2
 	windowingFunction mean
 	autoScale on
@@ -712,7 +712,7 @@ priority 4
 	container multiWig
 	shortLabel FOXA2 Pancreatic Progenitors (Cebola I et al. 2015)
 	longLabel FOXA2 ChIP-seq in Pancreatic Progenitors (Cebola I et al. 2015)
-	visibility full
+	visibility hide
 	aggregate transparentOverlay
 	smoothingWindow 2
 	windowingFunction mean
@@ -744,7 +744,7 @@ priority 4
 	shortLabel ONECUT1 Pancreatic Progenitor PP2 (Cebola I et al. 2015)
 	longLabel ONECUT1 ChIP-seq in Pancreatic Progenitor PP2 (Cebola I et al. 2015)
 	bigDataUrl http://gattaca.imppc.org/genome_browser/lplab/IRB_hg19/hg19_ONECUT1_PP2.bw
-	visibility full
+	visibility hide
 	smoothingWindow 2
 	windowingFunction mean
 	autoScale on
@@ -759,7 +759,7 @@ priority 4
 	shortLabel HNF1B Pancreatic Progenitor PP4 (Cebola I et al. 2015)
 	longLabel HNF1B ChIP-seq in Pancreatic Progenitor PP4 (Cebola I et al. 2015)
 	bigDataUrl http://gattaca.imppc.org/genome_browser/lplab/IRB_hg19/hg19_HNF1beta_PP4.bw
-	visibility full
+	visibility hide
 	smoothingWindow 2
 	windowingFunction mean
 	autoScale on
@@ -774,7 +774,7 @@ priority 4
 	shortLabel TEAD1 Pancreatic Progenitors (Cebola I et al. 2015)
 	longLabel TEAD1 ChIP-seq in Pancreatic Progenitors (Cebola I et al. 2015)
 	bigDataUrl http://gattaca.imppc.org/genome_browser/lplab/IRB_hg19/hg19_TEAD1_PP.bw
-	visibility full
+	visibility hide
 	smoothingWindow 2
 	windowingFunction mean
 	autoScale on
@@ -789,7 +789,7 @@ priority 4
 	shortLabel GATA6 Pancreatic Progenitor PP2 (Cebola I et al. 2015)
 	longLabel GATA6 ChIP-seq in Pancreatic Progenitor PP2 (Cebola I et al. 2015)
 	bigDataUrl http://gattaca.imppc.org/genome_browser/lplab/IRB_hg19/hg19_GATA6_PP2.bw
-	visibility full
+	visibility hide
 	smoothingWindow 2
 	windowingFunction mean
 	autoScale on

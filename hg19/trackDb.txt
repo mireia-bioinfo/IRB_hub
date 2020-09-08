@@ -533,7 +533,7 @@ priority 3
 		bigDataUrl http://gattaca.imppc.org/genome_browser/lplab/TxFactors_hg19/CTCF_HI32_hg19-extended_compressed_RPKM.bw
 		shortLabel CTCF HI32
 		longLabel CTCF ChIP-seq in Adult Islet HI32
-		parent IME_CTCF
+		parent LP_CTCF
 		color 0,128,255
 		type bigWig
 
@@ -541,7 +541,7 @@ priority 3
 		bigDataUrl http://gattaca.imppc.org/genome_browser/lplab/TxFactors_hg19/CTCF_HI34_hg19-extended_compressed_RPKM.bw
 		shortLabel CTCF HI34
 		longLabel CTCF ChIP-seq in Adult Islet HI34
-		parent IME_CTCF
+		parent LP_CTCF
 		color 0,128,255
 		type bigWig
 
@@ -549,7 +549,7 @@ priority 3
 		bigDataUrl http://gattaca.imppc.org/genome_browser/lplab/TxFactors_hg19/CTCF_HI22_hg19-extended_compressed_RPKM.bw
 		shortLabel CTCF HI22
 		longLabel CTCF ChIP-seq in Adult Islet HI22
-		parent IME_CTCF
+		parent LP_CTCF
 		color 0,128,255
 		type bigWig
 

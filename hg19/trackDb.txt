@@ -8,6 +8,7 @@ track chromatin_maps
 compositeTrack on
 shortLabel Chromatin maps
 longLabel Islet Regulome Browser Chromatin Maps
+type bigBed 9
 visibility pack
 
 	track IME_classes

@@ -4,9 +4,12 @@
     "name": "Islet_ChromHMM",
     "url": "http://gattaca.imppc.org/genome_browser/lplab/JF-PCHiC_hg19/islet_15.ChromHMM.categorical.txt.gz",
     "showOnHubLoad": true,
+    "details": {
+        "Publication": "Miguel-Escalada I et al. 2019"
+    },
     "options": {
         "category": {
-            "1": {"name": "PcG repressed", "color": "#000000"},
+            "1":{"name": "PcG repressed", "color": "#000000"},
             "2":{"name": "Quiescent 1", "color": "#ffffff"},
             "3":{"name": "Weak Heterochromatin", "color": "#c0c0c0"},
             "4":{"name": "Strong Heterochromatin", "color": "#c0c0c0"},
@@ -25,10 +28,40 @@
     }
 },
 {
+    "type":"categorical",
+    "name":"New_Islet_Regulome",
+    "url":"http://gattaca.imppc.org/genome_browser/lplab/JF-PCHiC_hg19/NewRegulome.washU.categorical.txt.gz", 
+    "showOnHubLoad": true,
+    "details": {
+        "Publication": "Miguel-Escalada I et al. 2019"
+    },
+    "options":{
+        "category":{
+            "1":{"name": "Active promoter", "color": "rgb(0, 155, 0)"},
+            "2":{"name": "Active promoters - CTCF", "color": "rgb(0, 155, 0)"},
+            "3":{"name": "Active enhancer I", "color": "#ff0000"},
+            "4":{"name": "Active enhancer I - CTCF", "color": "#ff0000"},
+            "5":{"name": "Active enhancer II", "color": "#ff3333"},
+            "6":{"name": "Active enhancer II - CTCF", "color": "#ff3333"},
+            "7":{"name": "Active enhancer III", "color": "#ff3333"},
+            "8":{"name": "Active enhancer III - CTCF", "color": "#ff3333"},
+            "9":{"name": "Inactive enhancer", "color":  "#606060"},
+            "10":{"name": "Inactive enhancer - CTCF", "color": "#606060"},
+            "11":{"name": "Inactive open chromatin region", "color": "#000000"},
+            "12":{"name": "Inactive open chromatin region - CTCF", "color": "#000000"},
+            "13":{"name": "Strong CTCF I", "color": "#0066cc"},
+            "14":{"name": "Strong CTCF II", "color": "#006600"},
+        }
+    }
+},
+{
     "type":"bed",
     "name":"Super-enhancers",
     "url":"http://gattaca.imppc.org/genome_browser/lplab/JF-PCHiC_hg19/Active_enhancers_all_merged_Gateway_SuperEnhancers_HI135_sorted.bed.gz",
     "showOnHubLoad": true,
+    "details": {
+        "Publication": "Miguel-Escalada I et al. 2019"
+    },
     "options": {
     "height": 15
   }
@@ -38,6 +71,9 @@
     "name":"Enhancer_clusters",
     "url":"http://jferrerlab:langerhans411@wmde-ictem-sftp.hh.med.ic.ac.uk/aa/tracksDirectory/PCHiC_islet_regulome_browser/HI.EnhancerClusters.HighlyBound_2quartiles.hg19_sorted.bed.gz",
     "showOnHubLoad": true,
+    "details": {
+        "Publication": "Pasquali L et al. 2014"
+    },
     "options": {
         "height": 15
     }
@@ -47,6 +83,9 @@
     "name":"Stretch-enhancers",
     "url":"http://jferrerlab:langerhans411@wmde-ictem-sftp.hh.med.ic.ac.uk/aa/tracksDirectory/PCHiC_islet_regulome_browser/Islets.stretchEnhancers_sorted.bed.gz",
     "showOnHubLoad": true,
+    "details": {
+        "Publication": "Parker SC et al. 2013"
+    },
     "options": {
         "height": 15
     }
@@ -56,6 +95,9 @@
     "name":"Islet_TAD-like",
     "url":"http://gattaca.imppc.org/genome_browser/lplab/JF-PCHiC_hg19/Islets.PC-HiC.domains.bed.gz",
     "showOnHubLoad": true,
+    "details": {
+        "Publication": "Miguel-Escalada I et al. 2019"
+    },
     "options": {
         "height": 20,
         "color": "rgb(138, 43, 226)"
@@ -440,6 +482,9 @@
     "name": "pcHi-C_islets",
     "showOnHubLoad": true,
     "url": "http://gattaca.imppc.org/genome_browser/lplab/JF-PCHiC_hg19/PC-HiC.PI.Interactions.visualization_only.txt.gz",
+    "details": {
+        "Publication": "Miguel-Escalada I et al. 2019"
+    },
     "metadata": {
         "Assay": "pcHi-C",
         "Tissue": "Pancreatic Islets",
@@ -455,6 +500,9 @@
     "name": "pcHi-C_erythroblasts",
     "showOnHubLoad": true,
     "url": "http://gattaca.imppc.org/genome_browser/lplab/JF-PCHiC_hg19/PC-HiC.Ery.Interactions.visualization_only.txt.gz",
+    "details": {
+        "Publication": "Miguel-Escalada I et al. 2019"
+    },
     "metadata": {
         "Assay": "pcHi-C",
         "Tissue": "Erythroblasts",
@@ -470,6 +518,9 @@
     "name": "pcHi-C_macrophages",
     "showOnHubLoad": true,
     "url": "http://gattaca.imppc.org/genome_browser/lplab/JF-PCHiC_hg19/PC-HiC.Mac1.Interactions.visualization_only.txt.gz",
+    "details": {
+        "Publication": "Miguel-Escalada I et al. 2019"
+    },
     "metadata": {
         "Assay": "pcHi-C",
         "Tissue": "Macrophages",
@@ -485,6 +536,9 @@
     "name": "pcHi-C_naive_CD4+_Tcells",
     "showOnHubLoad": true,
     "url": "http://gattaca.imppc.org/genome_browser/lplab/JF-PCHiC_hg19/PC-HiC.NCD4.Interactions.visualization_only.txt.gz",
+    "details": {
+        "Publication": "Miguel-Escalada I et al. 2019"
+    },
     "metadata": {
         "Assay": "pcHi-C",
         "Tissue": "Naive CD4+ T cells",
@@ -500,6 +554,9 @@
     "name": "pcHi-C_total_B_lymphocytes",
     "showOnHubLoad": true,
     "url": "http://gattaca.imppc.org/genome_browser/lplab/JF-PCHiC_hg19/PC-HiC.TotalB.Interactions.visualization_only.txt.gz",
+    "details": {
+        "Publication": "Miguel-Escalada I et al. 2019"
+    },
     "metadata": {
         "Assay": "pcHi-C",
         "Tissue": "Total B lymphocytes",
@@ -515,6 +572,9 @@
     "name":"pcHi-C_probes",
     "url":"http://gattaca.imppc.org/genome_browser/lplab/JF-PCHiC_hg19/PC-HiC.probes.bed.gz",
     "showOnHubLoad": true,
+    "details": {
+        "Publication": "Miguel-Escalada I et al. 2019"
+    },
     "options": {
         "height": 15,
         "color": "#336666"

@@ -1,0 +1,45 @@
+## IRB WashU session hg19
+[
+#################################################
+## Open Chromatin
+#################################################
+
+##-----------------------------------------------
+## Miguel-Escalada I. et al. 2019
+##-----------------------------------------------
+
+{
+    "type": "bigwig",
+    "name": "ATAC-HI141",
+    "url": "https://ndownloader.figshare.com/files/24600401?private_link=f2863dc8a85188bf0d9d",
+    "showOnHubLoad": true,
+    "details": {
+    	"Publication": "Miguel-Escalada I et al. 2019"
+    },
+    "options": {
+        "color": "#0080ff",
+        "height": 40,
+        "yScale": "fixed",
+        "yMin": 0,
+        "yMax": 30,
+        "displayMode": "bar" 
+    }
+},
+{
+    "type": "bigwig",
+    "name": "ATAC-HI138",
+    "url": "https://ndownloader.figshare.com/files/24600395?private_link=f2863dc8a85188bf0d9d",
+    "showOnHubLoad": true,
+    "details": {
+    	"Publication": "Miguel-Escalada I et al. 2019"
+    },
+    "options": {
+        "color": "#0080ff",
+        "height": 40,
+        "yScale": "fixed",
+        "yMin": 0,
+        "yMax": 30,
+        "displayMode": "bar" 
+    }
+}
+]

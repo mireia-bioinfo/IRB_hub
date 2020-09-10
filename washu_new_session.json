@@ -4,6 +4,11 @@
     "name": "ATAC-HI141",
     "url": "https://ndownloader.figshare.com/files/24600401?private_link=f2863dc8a85188bf0d9d",
     "showOnHubLoad": true,
+    "metadata": {
+        "Assay": "ATAC-seq",
+        "Sample": "HI141",
+        "Publication": "Miguel-Escalada I et al. 2019"
+    },
     "details": {
     	"Publication": "Miguel-Escalada I et al. 2019"
     },
@@ -21,8 +26,167 @@
     "name": "ATAC-HI138",
     "url": "https://ndownloader.figshare.com/files/24600395?private_link=f2863dc8a85188bf0d9d",
     "showOnHubLoad": true,
+    "metadata": {
+        "Assay": "ATAC-seq",
+        "Sample": "HI138",
+        "Publication": "Miguel-Escalada I et al. 2019"
+    },
     "details": {
     	"Publication": "Miguel-Escalada I et al. 2019"
+    },
+    "options": {
+        "color": "#0080ff",
+        "height": 40,
+        "yScale": "fixed",
+        "yMin": 0,
+        "yMax": 30,
+        "displayMode": "bar" 
+    }
+},
+{
+    "type": "bigwig",
+    "name": "ATAC-HI132",
+    "url": "https://ndownloader.figshare.com/files/24600386?private_link=f2863dc8a85188bf0d9d",
+    "showOnHubLoad": true,
+    "metadata": {
+        "Assay": "ATAC-seq",
+        "Sample": "HI132",
+        "Publication": "Miguel-Escalada I et al. 2019"
+    },
+    "details": {
+        "Publication": "Miguel-Escalada I et al. 2019"
+    },
+    "options": {
+        "color": "#0080ff",
+        "height": 40,
+        "yScale": "fixed",
+        "yMin": 0,
+        "yMax": 30,
+        "displayMode": "bar" 
+    }
+},
+{
+    "type": "bigwig",
+    "name": "SMCA1-HI128",
+    "url": "https://ndownloader.figshare.com/files/24600488?private_link=f2863dc8a85188bf0d9d",
+    "showOnHubLoad": true,
+    "metadata": {
+        "Assay": "SMCA1 ChIP-seq",
+        "Sample": "HI128",
+        "Publication": "Miguel-Escalada I et al. 2019"
+    },
+    "details": {
+        "Publication": "Miguel-Escalada I et al. 2019"
+    },
+    "options": {
+        "color": "#CC99FF",
+        "height": 40,
+        "yScale": "fixed",
+        "yMin": 0,
+        "yMax": 30,
+        "displayMode": "bar" 
+    }
+},
+{
+    "type": "bigwig",
+    "name": "SMCA1-HI13",
+    "url": "https://ndownloader.figshare.com/files/24600482?private_link=f2863dc8a85188bf0d9d",
+    "showOnHubLoad": true,
+    "metadata": {
+        "Assay": "SMCA1 ChIP-seq",
+        "Sample": "HI13",
+        "Publication": "Miguel-Escalada I et al. 2019"
+    },
+    "details": {
+        "Publication": "Miguel-Escalada I et al. 2019"
+    },
+    "options": {
+        "color": "#CC99FF",
+        "height": 40,
+        "yScale": "fixed",
+        "yMin": 0,
+        "yMax": 30,
+        "displayMode": "bar" 
+    }
+},
+{
+    "type": "bigwig",
+    "name": "SMCA1-HI123",
+    "url": "https://ndownloader.figshare.com/files/24600485?private_link=f2863dc8a85188bf0d9d",
+    "showOnHubLoad": true,
+    "metadata": {
+        "Assay": "SMCA1 ChIP-seq",
+        "Sample": "HI123",
+        "Publication": "Miguel-Escalada I et al. 2019"
+    },
+    "details": {
+        "Publication": "Miguel-Escalada I et al. 2019"
+    },
+    "options": {
+        "color": "#CC99FF",
+        "height": 40,
+        "yScale": "fixed",
+        "yMin": 0,
+        "yMax": 30,
+        "displayMode": "bar" 
+    }
+},
+{
+    "type": "bigwig",
+    "name": "CTCF-HI32",
+    "url": "https://ndownloader.figshare.com/files/24600413?private_link=f2863dc8a85188bf0d9d",
+    "showOnHubLoad": true,
+    "metadata": {
+        "Assay": "CTCF ChIP-seq",
+        "Sample": "HI32",
+        "Publication": "Pasquali L et al. 2014"
+    },
+    "details": {
+        "Publication": "Pasquali L et al. 2014"
+    },
+    "options": {
+        "color": "#0080ff",
+        "height": 40,
+        "yScale": "fixed",
+        "yMin": 0,
+        "yMax": 30,
+        "displayMode": "bar" 
+    }
+},
+{
+    "type": "bigwig",
+    "name": "CTCF-HI34",
+    "url": "https://ndownloader.figshare.com/files/24600419?private_link=f2863dc8a85188bf0d9d",
+    "showOnHubLoad": true,
+    "metadata": {
+        "Assay": "CTCF ChIP-seq",
+        "Sample": "HI34",
+        "Publication": "Pasquali L et al. 2014"
+    },
+    "details": {
+        "Publication": "Pasquali L et al. 2014"
+    },
+    "options": {
+        "color": "#0080ff",
+        "height": 40,
+        "yScale": "fixed",
+        "yMin": 0,
+        "yMax": 30,
+        "displayMode": "bar" 
+    }
+},
+{
+    "type": "bigwig",
+    "name": "CTCF-HI22",
+    "url": "https://ndownloader.figshare.com/files/24600407?private_link=f2863dc8a85188bf0d9d",
+    "showOnHubLoad": true,
+    "metadata": {
+        "Assay": "CTCF ChIP-seq",
+        "Sample": "HI22",
+        "Publication": "Pasquali L et al. 2014"
+    },
+    "details": {
+        "Publication": "Pasquali L et al. 2014"
     },
     "options": {
         "color": "#0080ff",

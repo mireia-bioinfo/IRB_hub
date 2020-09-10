@@ -1,17 +1,12 @@
 [
 {
-    "type": "longrange",
-    "name": "pcHi-C_naive_CD4+_Tcells",
+    "type": "bed",
+    "name":"Islet_TAD-like",
+    "url":"http://gattaca.imppc.org/genome_browser/lplab/JF-PCHiC_hg19/Islets.PC-HiC.domains.bed.gz",
     "showOnHubLoad": true,
-    "url": "http://gattaca.imppc.org/genome_browser/lplab/JF-PCHiC_hg19/PC-HiC.NCD4.Interactions.visualization_only.txt.gz",
-    "metadata": {
-        "Assay": "pc-HiC",
-        "Tissue": "Naive CD4+ T cells",
-        "Publication": "Miguel-Escalada I et al. 2019"
-    },
     "options": {
-        "height": 100,
-        "displayMode": "arc"
+        "height": 20,
+        "color": "rgb(138, 43, 226)"
     }
 },
 {
@@ -233,7 +228,7 @@
     "showOnHubLoad": true,
     "url": "http://gattaca.imppc.org/genome_browser/lplab/JF-PCHiC_hg19/PC-HiC.Ery.Interactions.visualization_only.txt.gz",
     "metadata": {
-        "Assay": "pc-HiC",
+        "Assay": "pcHi-C",
         "Tissue": "Erythroblasts",
         "Publication": "Miguel-Escalada I et al. 2019"
     },
@@ -248,8 +243,23 @@
     "showOnHubLoad": true,
     "url": "http://gattaca.imppc.org/genome_browser/lplab/JF-PCHiC_hg19/PC-HiC.Mac1.Interactions.visualization_only.txt.gz",
     "metadata": {
-        "Assay": "pc-HiC",
+        "Assay": "pcHi-C",
         "Tissue": "Macrophages",
+        "Publication": "Miguel-Escalada I et al. 2019"
+    },
+    "options": {
+        "height": 100,
+        "displayMode": "arc"
+    }
+},
+{
+    "type": "longrange",
+    "name": "pcHi-C_naive_CD4+_Tcells",
+    "showOnHubLoad": true,
+    "url": "http://gattaca.imppc.org/genome_browser/lplab/JF-PCHiC_hg19/PC-HiC.NCD4.Interactions.visualization_only.txt.gz",
+    "metadata": {
+        "Assay": "pcHi-C",
+        "Tissue": "Naive CD4+ T cells",
         "Publication": "Miguel-Escalada I et al. 2019"
     },
     "options": {
@@ -263,13 +273,23 @@
     "showOnHubLoad": true,
     "url": "http://gattaca.imppc.org/genome_browser/lplab/JF-PCHiC_hg19/PC-HiC.TotalB.Interactions.visualization_only.txt.gz",
     "metadata": {
-        "Assay": "pc-HiC",
+        "Assay": "pcHi-C",
         "Tissue": "Total B lymphocytes",
         "Publication": "Miguel-Escalada I et al. 2019"
     },
     "options": {
         "height": 100,
         "displayMode": "arc"
+    }
+},
+{
+    "type": "bed",
+    "name": "HindIII",
+    "url": "http://gattaca.imppc.org/genome_browser/lplab/JF-PCHiC_hg19/HindIII.hg19.txt.gz",
+    "showOnHubLoad": true,
+    "options": {
+        "height": 50,
+        "color": "#336666"
     }
 }
 ]

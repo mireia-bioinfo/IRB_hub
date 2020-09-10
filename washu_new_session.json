@@ -21,7 +21,7 @@
 },
 {
     "type": "bigwig",
-    "name": "ATAC-HI141",
+    "name": "ATACseq-HI141",
     "url": "https://ndownloader.figshare.com/files/24600401?private_link=f2863dc8a85188bf0d9d",
     "showOnHubLoad": true,
     "metadata": {

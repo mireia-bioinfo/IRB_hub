@@ -1,3 +1,4 @@
+[
 {
     "type": "bed",
     "name":"Islet_TAD-like",
@@ -6,6 +7,58 @@
     "options": {
         "height": 20,
         "color": "rgb(138, 43, 226)"
+    }
+},
+{
+    "type": "categorical",
+    "name": "Islet_ChromHMM",
+    "url": "http://gattaca.imppc.org/genome_browser/lplab/JF-PCHiC_hg19/islet_15.ChromHMM.categorical.txt.gz",
+    "showOnHubLoad": true,
+    "options": {
+        "category": {
+            "1": {"name": "PcG repressed", "color": "#000000"},
+            "2":{"name": "Quiescent 1", "color": "#ffffff"},
+            "3":{"name": "Weak Heterochromatin", "color": "#c0c0c0"},
+            "4":{"name": "Strong Heterochromatin", "color": "#c0c0c0"},
+            "5":{"name": "Transcription", "color": "#cc00cc"},
+            "6":{"name": "Quiescent 2", "color": "#ffffff"},
+            "7":{"name": "Flanking enhancer 1", "color": "#ff8000"},
+            "8":{"name": "Flankin enhancer 2", "color": "#ff8000"},
+            "9":{"name": "Strong enhancer", "color": "#ff0000"},
+            "10":{"name": "Weak enhancer", "color": "#ff8000"},
+            "11":{"name": "Quiescent 3", "color": "#ffffff"},
+            "12":{"name": "Inactive enhancer", "color": "#ffff00"},
+            "13":{"name": "Bivalent promoter", "color": "#33ffff"},
+            "14":{"name": "Promoters", "color": "#3333ff"},
+            "15":{"name": "CTCF", "color": "#00cc00"},
+            "-1":{"name": "no information", "color": "transparent"}
+        }
+    }
+},
+{
+  "type":"categorical",
+  "name":"Islet_Regulome",
+  "url":"http://gattaca.imppc.org/genome_browser/lplab/JF-PCHiC_hg19/NewRegulome.washU.categorical.txt.gz", 
+  "showOnHubLoad": true,
+  "options": {
+    "height": 15,
+    "category":{
+        "1": {"name": "Active promoter", "color": "rgb(0, 155, 0)"},
+        "2": {"name": "Active promoters - CTCF", "color": "rgb(0, 155, 0)"},
+        "3": {"name": "Active enhancer I", "color": "#ff0000"},
+        "4": {"name": "Active enhancer I - CTCF", "color": "#ff0000"},
+        "5": {"name": "Active enhancer II", "color": "#ff3333"},
+        "6": {"name": "Active enhancer II - CTCF", "#ff3333"},
+        "7": {"name": "Active enhancer III", "color": "#ff3333"},
+        "8": {"name": "Active enhancer III - CTCF", "color": "#ff3333"},
+        "9": {"name": "Inactive enhancer", "color":  "#606060"},
+        "10": {"name": "Inactive enhancer - CTCF", "color": "#606060"},
+        "11": {"name": "Inactive open chromatin region", "color": "#000000"}, 
+        "13": {"name": "Strong CTCF I", "color": "#0066cc"},
+        "14": {"name": "Strong CTCF II", "color": "#006600"},
+        "12": {"name": "Inactive open chromatin region - CTCF", "color": "#000000"},
+        "-1": {"name": "no information", "color": "transparent"}
+        }
     }
 },
 {

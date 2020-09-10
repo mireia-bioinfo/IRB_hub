@@ -1,8 +1,13 @@
 [
 {
-    "type": "bigbed",
-    "name": "test bigbed",
-    "url": "https://raw.githubusercontent.com/mireia-bioinfo/IRB_hub/master/hg19/hg19_map_chromatinClasses.bb"
+    "type": "longrange",
+    "name": "test-github",
+    "url": "https://raw.githubusercontent.com/mireia-bioinfo/IRB_hub/master/hg19/PC-HiC.PI.Interactions.visualization_only.txt.gz"
+},
+{
+    "type": "longrange",
+    "name": "test-gattaca",
+    "url": "http://gattaca.imppc.org/genome_browser/lplab/JF-PCHiC_hg19/PC-HiC.PI.Interactions.visualization_only.txt.gz"
 },
 {
     "type": "bigwig",

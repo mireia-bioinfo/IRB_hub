@@ -1,5 +1,30 @@
 [
 {
+    "type": "categorical",
+    "name": "Islet_ChromHMM",
+    "url": "http://gattaca.imppc.org/genome_browser/lplab/JF-PCHiC_hg19/islet_15.ChromHMM.categorical.txt.gz",
+    "showOnHubLoad": true,
+    "options": {
+        "category": {
+            "1": {"name": "PcG repressed", "color": "#000000"},
+            "2":{"name": "Quiescent 1", "color": "#ffffff"},
+            "3":{"name": "Weak Heterochromatin", "color": "#c0c0c0"},
+            "4":{"name": "Strong Heterochromatin", "color": "#c0c0c0"},
+            "5":{"name": "Transcription", "color": "#cc00cc"},
+            "6":{"name": "Quiescent 2", "color": "#ffffff"},
+            "7":{"name": "Flanking enhancer 1", "color": "#ff8000"},
+            "8":{"name": "Flankin enhancer 2", "color": "#ff8000"},
+            "9":{"name": "Strong enhancer", "color": "#ff0000"},
+            "10":{"name": "Weak enhancer", "color": "#ff8000"},
+            "11":{"name": "Quiescent 3", "color": "#ffffff"},
+            "12":{"name": "Inactive enhancer", "color": "#ffff00"},
+            "13":{"name": "Bivalent promoter", "color": "#33ffff"},
+            "14":{"name": "Promoters", "color": "#3333ff"},
+            "15":{"name": "CTCF", "color": "#00cc00"}
+        }
+    }
+},
+{
     "type":"bed",
     "name":"Super-enhancers",
     "url":"http://gattaca.imppc.org/genome_browser/lplab/JF-PCHiC_hg19/Active_enhancers_all_merged_Gateway_SuperEnhancers_HI135_sorted.bed.gz",

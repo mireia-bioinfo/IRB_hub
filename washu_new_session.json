@@ -2,7 +2,7 @@
 {
     "type": "bigbed",
     "name": "test bigbed",
-    "url": "hg19/hg19_map_chromatinClasses.bb"
+    "url": "https://raw.githubusercontent.com/mireia-bioinfo/IRB_hub/master/hg19/hg19_map_chromatinClasses.bb"
 },
 {
     "type": "bigwig",

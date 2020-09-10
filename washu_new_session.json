@@ -1,4 +1,3 @@
-[
 {
     "type": "bed",
     "name":"Islet_TAD-like",
@@ -7,6 +6,85 @@
     "options": {
         "height": 20,
         "color": "rgb(138, 43, 226)"
+    }
+},
+{
+    "type": "categorical",
+    "name": "Islet_ChromHMM",
+    "url": "http://gattaca.imppc.org/genome_browser/lplab/JF-PCHiC_hg19/islet_15.ChromHMM.categorical.txt.gz",
+    "showOnHubLoad": true,
+    "options": {
+        "category": {
+            "1": {"name": "PcG repressed", "color": "#000000"},
+            "2":{"name": "Quiescent 1", "color": "#ffffff"},
+            "3":{"name": "Weak Heterochromatin", "color": "#c0c0c0"},
+            "4":{"name": "Strong Heterochromatin", "color": "#c0c0c0"},
+            "5":{"name": "Transcription", "color": "#cc00cc"},
+            "6":{"name": "Quiescent 2", "color": "#ffffff"},
+            "7":{"name": "Flanking enhancer 1", "color": "#ff8000"},
+            "8":{"name": "Flankin enhancer 2", "color": "#ff8000"},
+            "9":{"name": "Strong enhancer", "color": "#ff0000"},
+            "10":{"name": "Weak enhancer", "color": "#ff8000"},
+            "11":{"name": "Quiescent 3", "color": "#ffffff"},
+            "12":{"name": "Inactive enhancer", "color": "#ffff00"},
+            "13":{"name": "Bivalent promoter", "color": "#33ffff"},
+            "14":{"name": "Promoters", "color": "#3333ff"},
+            "15":{"name": "CTCF", "color": "#00cc00"},
+            "-1":{"name": "no information", "color": "transparent"}
+        }
+    }
+},
+{
+  "type":"categorical",
+  "name":"Islet_Regulome",
+  "url":"http://gattaca.imppc.org/genome_browser/lplab/JF-PCHiC_hg19/NewRegulome.washU.categorical.txt.gz", 
+  "showOnHubLoad": true,
+  "options": {
+    "height": 15,
+    "category":{
+        "1": {"name": "Active promoter", "color": "rgb(0, 155, 0)"},
+        "2": {"name": "Active promoters - CTCF", "color": "rgb(0, 155, 0)"},
+        "3": {"name": "Active enhancer I", "color": "#ff0000"},
+        "4": {"name": "Active enhancer I - CTCF", "color": "#ff0000"},
+        "5": {"name": "Active enhancer II", "color": "#ff3333"},
+        "6": {"name": "Active enhancer II - CTCF", "#ff3333"},
+        "7": {"name": "Active enhancer III", "color": "#ff3333"},
+        "8": {"name": "Active enhancer III - CTCF", "color": "#ff3333"},
+        "9": {"name": "Inactive enhancer", "color":  "#606060"},
+        "10": {"name": "Inactive enhancer - CTCF", "color": "#606060"},
+        "11": {"name": "Inactive open chromatin region", "color": "#000000"}, 
+        "13": {"name": "Strong CTCF I", "color": "#0066cc"},
+        "14": {"name": "Strong CTCF II", "color": "#006600"},
+        "12": {"name": "Inactive open chromatin region - CTCF", "color": "#000000"},
+        "-1": {"name": "no information", "color": "transparent"}
+        }
+    }
+},
+{
+    "type":"bed",
+    "name":"Super-enhancers",
+    "url":"http://gattaca.imppc.org/genome_browser/lplab/JF-PCHiC_hg19/Active_enhancers_all_merged_Gateway_SuperEnhancers_HI135_sorted.bed.gz",
+    "showOnHubLoad": true,
+    "options": {
+    "height": 15
+  }
+},
+{
+    "type":"bed",
+    "name":"Enhancer_clusters",
+    "url":"http://jferrerlab:langerhans411@wmde-ictem-sftp.hh.med.ic.ac.uk/aa/tracksDirectory/PCHiC_islet_regulome_browser/HI.EnhancerClusters.HighlyBound_2quartiles.hg19_sorted.bed.gz",
+    "showOnHubLoad": true,
+    "options": {
+        "height": 15
+    }
+},
+{
+    "type":"bed",
+    "name":"Stretch-enhancers",
+    "url":"http://jferrerlab:langerhans411@wmde-ictem-sftp.hh.med.ic.ac.uk/aa/tracksDirectory/PCHiC_islet_regulome_browser/Islets.stretchEnhancers_sorted.bed.gz",
+    "showOnHubLoad": true,
+    "options": {
+        "height": 15
     }
 },
 {
@@ -208,6 +286,182 @@
     }
 },
 {
+    "type": "bigwig",
+    "name": "Mediator-HI135",
+    "url": "https://ndownloader.figshare.com/files/24600479?private_link=f2863dc8a85188bf0d9d",
+    "showOnHubLoad": true,
+    "metadata": {
+        "Assay": "Mediator ChIP-seq",
+        "Sample": "HI135",
+        "Publication": "Miguel-Escalada I et al. 2019"
+    },
+    "details": {
+        "Publication": "Miguel-Escalada I et al. 2019"
+    },
+    "options": {
+        "color": "#696969",
+        "height": 40,
+        "yScale": "fixed",
+        "yMin": 0,
+        "yMax": 30,
+        "displayMode": "bar" 
+    }
+},
+{
+    "type": "bigwig",
+    "name": "Mediator-HI131",
+    "url": "https://ndownloader.figshare.com/files/24600473?private_link=f2863dc8a85188bf0d9d",
+    "showOnHubLoad": true,
+    "metadata": {
+        "Assay": "Mediator ChIP-seq",
+        "Sample": "HI131",
+        "Publication": "Miguel-Escalada I et al. 2019"
+    },
+    "details": {
+        "Publication": "Miguel-Escalada I et al. 2019"
+    },
+    "options": {
+        "color": "#696969",
+        "height": 40,
+        "yScale": "fixed",
+        "yMin": 0,
+        "yMax": 30,
+        "displayMode": "bar" 
+    }
+},
+{
+    "type": "bigwig",
+    "name": "Mediator-HI132",
+    "url": "https://ndownloader.figshare.com/files/24600476?private_link=f2863dc8a85188bf0d9d",
+    "showOnHubLoad": true,
+    "metadata": {
+        "Assay": "Mediator ChIP-seq",
+        "Sample": "HI132",
+        "Publication": "Miguel-Escalada I et al. 2019"
+    },
+    "details": {
+        "Publication": "Miguel-Escalada I et al. 2019"
+    },
+    "options": {
+        "color": "#696969",
+        "height": 40,
+        "yScale": "fixed",
+        "yMin": 0,
+        "yMax": 30,
+        "displayMode": "bar" 
+    }
+},
+{
+    "type": "bigwig",
+    "name": "H3K4me3-HI32",
+    "url": "https://ndownloader.figshare.com/files/24600428?private_link=f2863dc8a85188bf0d9d",
+    "showOnHubLoad": true,
+    "metadata": {
+        "Assay": "H3K4me3 ChIP-seq",
+        "Sample": "HI32",
+        "Publication": "Pasquali L et al. 2014"
+    },
+    "details": {
+        "Publication": "Pasquali L et al. 2014"
+    },
+    "options": {
+        "color": "#008000",
+        "height": 40,
+        "yScale": "fixed",
+        "yMin": 0,
+        "yMax": 30,
+        "displayMode": "bar" 
+    }
+},
+{
+    "type": "bigwig",
+    "name": "H3K4me3-HI25",
+    "url": "https://ndownloader.figshare.com/files/24600425?private_link=f2863dc8a85188bf0d9d",
+    "showOnHubLoad": true,
+    "metadata": {
+        "Assay": "H3K4me3 ChIP-seq",
+        "Sample": "HI25",
+        "Publication": "Pasquali L et al. 2014"
+    },
+    "details": {
+        "Publication": "Pasquali L et al. 2014"
+    },
+    "options": {
+        "color": "#008000",
+        "height": 40,
+        "yScale": "fixed",
+        "yMin": 0,
+        "yMax": 30,
+        "displayMode": "bar" 
+    }
+},
+{
+    "type": "bigwig",
+    "name": "H3K27ac-H131",
+    "url": "https://ndownloader.figshare.com/files/24600440?private_link=f2863dc8a85188bf0d9d",
+    "showOnHubLoad": true,
+    "metadata": {
+        "Assay": "H3K27ad ChIP-seq",
+        "Sample": "HI131",
+        "Publication": "Miguel-Escalada I et al. 2019"
+    },
+    "details": {
+        "Publication": "Miguel-Escalada I et al. 2019"
+    },
+    "options": {
+        "color": "#FF0000",
+        "height": 40,
+        "yScale": "fixed",
+        "yMin": 0,
+        "yMax": 30,
+        "displayMode": "bar" 
+    }
+},
+{
+    "type": "bigwig",
+    "name": "H3K27ac-H132",
+    "url": "https://ndownloader.figshare.com/files/24600443?private_link=f2863dc8a85188bf0d9d",
+    "showOnHubLoad": true,
+    "metadata": {
+        "Assay": "H3K27ad ChIP-seq",
+        "Sample": "HI132",
+        "Publication": "Miguel-Escalada I et al. 2019"
+    },
+    "details": {
+        "Publication": "Miguel-Escalada I et al. 2019"
+    },
+    "options": {
+        "color": "#FF0000",
+        "height": 40,
+        "yScale": "fixed",
+        "yMin": 0,
+        "yMax": 30,
+        "displayMode": "bar" 
+    }
+},
+{
+    "type": "bigwig",
+    "name": "H3K27ac-H135",
+    "url": "https://ndownloader.figshare.com/files/24600461?private_link=f2863dc8a85188bf0d9d",
+    "showOnHubLoad": true,
+    "metadata": {
+        "Assay": "H3K27ad ChIP-seq",
+        "Sample": "HI135",
+        "Publication": "Miguel-Escalada I et al. 2019"
+    },
+    "details": {
+        "Publication": "Miguel-Escalada I et al. 2019"
+    },
+    "options": {
+        "color": "#FF0000",
+        "height": 40,
+        "yScale": "fixed",
+        "yMin": 0,
+        "yMax": 30,
+        "displayMode": "bar" 
+    }
+},
+{
     "type": "longrange",
     "name": "pcHi-C_islets",
     "showOnHubLoad": true,
@@ -280,6 +534,16 @@
     "options": {
         "height": 100,
         "displayMode": "arc"
+    }
+},
+{
+    "type":"bed",
+    "name":"pcHi-C_probes",
+    "url":"http://gattaca.imppc.org/genome_browser/lplab/JF-PCHiC_hg19/PC-HiC.probes.bed.gz",
+    "showOnHubLoad": true,
+    "options": {
+        "height": 15,
+        "color": "#336666"
     }
 },
 {

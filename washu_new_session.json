@@ -2,22 +2,29 @@
 {
     "type": "longrange",
     "name": "test-github",
-    "url": "https://raw.githubusercontent.com/mireia-bioinfo/IRB_hub/master/hg19/PC-HiC.PI.Interactions.visualization_only.txt.gz"
+    "showOnHubLoad": true,
+    "url": "https://raw.githubusercontent.com/mireia-bioinfo/IRB_hub/master/hg19/PC-HiC.PI.Interactions.visualization_only.txt.gz",
+    "options": {
+        "displayMode": "arc"
+    }
 },
 {
     "type": "longrange",
     "name": "test-gattaca",
-    "url": "http://gattaca.imppc.org/genome_browser/lplab/JF-PCHiC_hg19/PC-HiC.PI.Interactions.visualization_only.txt.gz"
+    "showOnHubLoad": true,
+    "url": "http://gattaca.imppc.org/genome_browser/lplab/JF-PCHiC_hg19/PC-HiC.PI.Interactions.visualization_only.txt.gz",
+    "options": {
+        "displayMode": "arc"
+    }
 },
 {
     "type": "longrange",
     "name": "test-imperial",
-    "url": "http:/jferrerlab:langerhans411@wmde-ictem-sftp.hh.med.ic.ac.uk/aa/tracksDirectory/PCHiC_islet_regulome_browser/PC-HiC.PI.Interactions.visualization_only.txt.gz"
-},
-{
-    "type": "longrange",
-    "name": "ES-E14 ChIA-PET",
-    "url": "https://egg.wustl.edu/d/mm9/GSE28247_st3c.gz"
+    "showOnHubLoad": true,
+    "url": "http:/jferrerlab:langerhans411@wmde-ictem-sftp.hh.med.ic.ac.uk/aa/tracksDirectory/PCHiC_islet_regulome_browser/PC-HiC.PI.Interactions.visualization_only.txt.gz",
+    "options": {
+        "displayMode": "arc"
+    }
 },
 {
     "type": "bigwig",

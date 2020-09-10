@@ -1,34 +1,22 @@
 [
 {
     "type": "longrange",
-    "name": "test-github",
+    "name": "pcHi-C_naive_CD4+_Tcells",
     "showOnHubLoad": true,
-    "url": "https://raw.githubusercontent.com/mireia-bioinfo/IRB_hub/master/hg19/PC-HiC.PI.Interactions.visualization_only.txt.gz",
+    "url": "http://gattaca.imppc.org/genome_browser/lplab/JF-PCHiC_hg19/PC-HiC.NCD4.Interactions.visualization_only.txt.gz",
+    "metadata": {
+        "Assay": "pc-HiC",
+        "Tissue": "Naive CD4+ T cells",
+        "Publication": "Miguel-Escalada I et al. 2019"
+    },
     "options": {
-        "displayMode": "arc"
-    }
-},
-{
-    "type": "longrange",
-    "name": "test-gattaca",
-    "showOnHubLoad": true,
-    "url": "http://gattaca.imppc.org/genome_browser/lplab/JF-PCHiC_hg19/PC-HiC.PI.Interactions.visualization_only.txt.gz",
-    "options": {
-        "displayMode": "arc"
-    }
-},
-{
-    "type": "longrange",
-    "name": "test-imperial",
-    "showOnHubLoad": true,
-    "url": "http:/jferrerlab:langerhans411@wmde-ictem-sftp.hh.med.ic.ac.uk/aa/tracksDirectory/PCHiC_islet_regulome_browser/PC-HiC.PI.Interactions.visualization_only.txt.gz",
-    "options": {
+        "height": 100,
         "displayMode": "arc"
     }
 },
 {
     "type": "bigwig",
-    "name": "ATACseq-HI141",
+    "name": "ATAC-HI141",
     "url": "https://ndownloader.figshare.com/files/24600401?private_link=f2863dc8a85188bf0d9d",
     "showOnHubLoad": true,
     "metadata": {
@@ -222,6 +210,66 @@
         "yMin": 0,
         "yMax": 30,
         "displayMode": "bar" 
+    }
+},
+{
+    "type": "longrange",
+    "name": "pcHi-C_islets",
+    "showOnHubLoad": true,
+    "url": "http://gattaca.imppc.org/genome_browser/lplab/JF-PCHiC_hg19/PC-HiC.PI.Interactions.visualization_only.txt.gz",
+    "metadata": {
+        "Assay": "pcHi-C",
+        "Tissue": "Pancreatic Islets",
+        "Publication": "Miguel-Escalada I et al. 2019"
+    },
+    "options": {
+        "height": 100,
+        "displayMode": "arc"
+    }
+},
+{
+    "type": "longrange",
+    "name": "pcHi-C_erythroblasts",
+    "showOnHubLoad": true,
+    "url": "http://gattaca.imppc.org/genome_browser/lplab/JF-PCHiC_hg19/PC-HiC.Ery.Interactions.visualization_only.txt.gz",
+    "metadata": {
+        "Assay": "pc-HiC",
+        "Tissue": "Erythroblasts",
+        "Publication": "Miguel-Escalada I et al. 2019"
+    },
+    "options": {
+        "height": 100,
+        "displayMode": "arc"
+    }
+},
+{
+    "type": "longrange",
+    "name": "pcHi-C_macrophages",
+    "showOnHubLoad": true,
+    "url": "http://gattaca.imppc.org/genome_browser/lplab/JF-PCHiC_hg19/PC-HiC.Mac1.Interactions.visualization_only.txt.gz",
+    "metadata": {
+        "Assay": "pc-HiC",
+        "Tissue": "Macrophages",
+        "Publication": "Miguel-Escalada I et al. 2019"
+    },
+    "options": {
+        "height": 100,
+        "displayMode": "arc"
+    }
+},
+{
+    "type": "longrange",
+    "name": "pcHi-C_total_B_lymphocytes",
+    "showOnHubLoad": true,
+    "url": "http://gattaca.imppc.org/genome_browser/lplab/JF-PCHiC_hg19/PC-HiC.TotalB.Interactions.visualization_only.txt.gz",
+    "metadata": {
+        "Assay": "pc-HiC",
+        "Tissue": "Total B lymphocytes",
+        "Publication": "Miguel-Escalada I et al. 2019"
+    },
+    "options": {
+        "height": 100,
+        "displayMode": "arc"
     }
 }
 ]

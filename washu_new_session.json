@@ -15,6 +15,11 @@
     "url": "http:/jferrerlab:langerhans411@wmde-ictem-sftp.hh.med.ic.ac.uk/aa/tracksDirectory/PCHiC_islet_regulome_browser/PC-HiC.PI.Interactions.visualization_only.txt.gz"
 },
 {
+    "type": "longrange",
+    "name": "ES-E14 ChIA-PET",
+    "url": "https://egg.wustl.edu/d/mm9/GSE28247_st3c.gz"
+},
+{
     "type": "bigwig",
     "name": "ATAC-HI141",
     "url": "https://ndownloader.figshare.com/files/24600401?private_link=f2863dc8a85188bf0d9d",

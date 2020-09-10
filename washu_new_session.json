@@ -10,6 +10,11 @@
     "url": "http://gattaca.imppc.org/genome_browser/lplab/JF-PCHiC_hg19/PC-HiC.PI.Interactions.visualization_only.txt.gz"
 },
 {
+    "type": "longrange",
+    "name": "test-imperial",
+    "url": "http:/jferrerlab:langerhans411@wmde-ictem-sftp.hh.med.ic.ac.uk/aa/tracksDirectory/PCHiC_islet_regulome_browser/PC-HiC.PI.Interactions.visualization_only.txt.gz"
+},
+{
     "type": "bigwig",
     "name": "ATAC-HI141",
     "url": "https://ndownloader.figshare.com/files/24600401?private_link=f2863dc8a85188bf0d9d",

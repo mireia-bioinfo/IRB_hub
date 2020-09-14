@@ -125,7 +125,7 @@ priority 1
 	priority 1
 
 		track LP_FAIRE_HI10
-		bigDataUrl http://gattaca.imppc.org/genome_browser/lplab/HistoneModifications_hg19/FAIRE_HI_10_hg19-extended_compressed_RPKM.bw
+		bigDataUrl https://ndownloader.figshare.com/files/24600500?private_link=f2863dc8a85188bf0d9d
 		shortLabel FAIRE-seq HI10
 		longLabel FAIRE-seq in Adult Islet HI10
 		parent LP_FAIREseq
@@ -133,7 +133,7 @@ priority 1
 		type bigWig
 
 		track LP_FAIRE_HI32
-		bigDataUrl http://gattaca.imppc.org/genome_browser/lplab/HistoneModifications_hg19/FAIRE_HI_32_hg19-extended_compressed_RPKM.bw
+		bigDataUrl https://ndownloader.figshare.com/files/24600503?private_link=f2863dc8a85188bf0d9d
 		shortLabel FAIRE-seq HI32
 		longLabel FAIRE-seq in Adult Islet HI32
 		parent LP_FAIREseq
@@ -161,7 +161,7 @@ priority 1
 	priority 1
 
 		track IME_ATAC_HI141
-		bigDataUrl https://ndownloader.figshare.com/files/24598592?private_link=fe54905645ac714603f0
+		bigDataUrl https://ndownloader.figshare.com/files/24600401?private_link=f2863dc8a85188bf0d9d
 		shortLabel ATAC-seq HI141
 		longLabel ATAC-seq in Adult Islet HI141
 		parent IME_ATACseq
@@ -169,7 +169,7 @@ priority 1
 		type bigWig
 
 		track IME_ATAC_HI138
-		bigDataUrl https://ndownloader.figshare.com/files/24598589?private_link=fe54905645ac714603f0
+		bigDataUrl https://ndownloader.figshare.com/files/24600395?private_link=f2863dc8a85188bf0d9d
 		shortLabel ATAC-seq HI138
 		longLabel ATAC-seq in Adult Islet HI138
 		parent IME_ATACseq
@@ -177,7 +177,7 @@ priority 1
 		type bigWig
 
 		track IME_ATAC_HI132
-		bigDataUrl https://ndownloader.figshare.com/files/24598586?private_link=fe54905645ac714603f0
+		bigDataUrl https://ndownloader.figshare.com/files/24600386?private_link=f2863dc8a85188bf0d9d
 		shortLabel ATAC-seq HI132
 		longLabel ATAC-seq in Adult Islet HI132
 		parent IME_ATACseq
@@ -215,7 +215,7 @@ priority 2
 	priority 1
 
 		track H2AZ_HI22
-		bigDataUrl http://gattaca.imppc.org/genome_browser/lplab/HistoneModifications_hg19/H2AZ_HI_22_hg19-extended_compressed_RPKM.bw
+		bigDataUrl https://ndownloader.figshare.com/files/24600512?private_link=f2863dc8a85188bf0d9d
 		shortLabel H2A.Z HI22
 		longLabel H2A.Z ChIP-seq in Adult Islet HI22
 		parent hiH2AZ
@@ -223,7 +223,7 @@ priority 2
 		type bigWig
 
 		track H2AZ_HI32
-		bigDataUrl http://gattaca.imppc.org/genome_browser/lplab/HistoneModifications_hg19/H2AZ_HI_32_hg19-extended_compressed_RPKM.bw
+		bigDataUrl https://ndownloader.figshare.com/files/24600518?private_link=f2863dc8a85188bf0d9d
 		shortLabel H2A.Z HI32
 		longLabel H2A.Z ChIP-seq in Adult Islet HI32
 		parent hiH2AZ
@@ -231,7 +231,7 @@ priority 2
 		type bigWig
 
 		track H2AZ_HI34
-		bigDataUrl http://gattaca.imppc.org/genome_browser/lplab/HistoneModifications_hg19/H2AZ_HI_34_hg19-extended_compressed_RPKM.bw
+		bigDataUrl https://ndownloader.figshare.com/files/24600521?private_link=f2863dc8a85188bf0d9d
 		shortLabel H2A.Z HI34
 		longLabel H2A.Z ChIP-seq in Adult Islet HI34
 		parent hiH2AZ
@@ -255,7 +255,7 @@ priority 2
 	priority 1
 
 		track H3K27ac_HI32
-		bigDataUrl http://gattaca.imppc.org/genome_browser/lplab/HistoneModifications_hg19/H3k27ac_HI_32_hg19-extended_compressed_RPKM.bw
+		bigDataUrl https://ndownloader.figshare.com/files/24600554?private_link=f2863dc8a85188bf0d9d
 		shortLabel H3K27ac HI32
 		longLabel H3K27ac ChIP-seq in Adult Islet HI32
 		parent hiH3K27ac
@@ -263,7 +263,7 @@ priority 2
 		type bigWig
 
 		track H3K27ac_HI45
-		bigDataUrl http://gattaca.imppc.org/genome_browser/lplab/HistoneModifications_hg19/H3k27ac_HI_45_hg19-extended_compressed_RPKM.bw
+		bigDataUrl https://ndownloader.figshare.com/files/24600557?private_link=f2863dc8a85188bf0d9d
 		shortLabel H3K27ac HI45
 		longLabel H3K27ac ChIP-seq in Adult Islet HI45
 		parent hiH3K27ac
@@ -287,7 +287,7 @@ priority 2
 	priority 1
 
 		track H3K4me1_HI21
-		bigDataUrl http://gattaca.imppc.org/genome_browser/lplab/HistoneModifications_hg19/H3k4me1_HI_21_hg19-extended_compressed_RPKM.bw
+		bigDataUrl https://ndownloader.figshare.com/files/24600524?private_link=f2863dc8a85188bf0d9d
 		shortLabel H3K4me1 HI21
 		longLabel H3K4me1 ChIP-seq in Adult Islet HI21
 		parent hiH3K4me1
@@ -295,7 +295,7 @@ priority 2
 		type bigWig
 
 		track H3K4me1_HI25
-		bigDataUrl http://gattaca.imppc.org/genome_browser/lplab/HistoneModifications_hg19/H3k4me1_HI_25_hg19-extended_compressed_RPKM.bw
+		bigDataUrl https://ndownloader.figshare.com/files/24600527?private_link=f2863dc8a85188bf0d9d
 		shortLabel H3K4me1 HI25
 		longLabel H3K4me1 ChIP-seq in Adult Islet HI25
 		parent hiH3K4me1
@@ -303,7 +303,7 @@ priority 2
 		type bigWig
 
 		track H3K4me1_HI32
-		bigDataUrl http://gattaca.imppc.org/genome_browser/lplab/HistoneModifications_hg19/H3k4me1_HI_32_hg19-extended_compressed_RPKM.bw
+		bigDataUrl https://ndownloader.figshare.com/files/24600530?private_link=f2863dc8a85188bf0d9d
 		shortLabel H3K4me1 HI32
 		longLabel H3K4me1 ChIP-seq in Adult Islet HI32
 		parent hiH3K4me1
@@ -327,7 +327,7 @@ priority 2
 	priority 1
 
 		track H3K4me3_HI21
-		bigDataUrl http://gattaca.imppc.org/genome_browser/lplab/HistoneModifications_hg19/H3k4me3_HI_21_hg19-extended_compressed_RPKM.bw
+		bigDataUrl https://ndownloader.figshare.com/files/24600533?private_link=f2863dc8a85188bf0d9d
 		shortLabel H3K4me3 HI21
 		longLabel H3K4me3 ChIP-seq in Adult Islet HI21
 		parent hiH3K4me3
@@ -335,7 +335,7 @@ priority 2
 		type bigWig
 
 		track H3K4me3_HI25
-		bigDataUrl http://gattaca.imppc.org/genome_browser/lplab/HistoneModifications_hg19/H3k4me3_HI_25_hg19-extended_compressed_RPKM.bw
+		bigDataUrl https://ndownloader.figshare.com/files/24600539?private_link=f2863dc8a85188bf0d9d
 		shortLabel H3K4me3 HI25
 		longLabel H3K4me3 ChIP-seq in Adult Islet HI25
 		parent hiH3K4me3
@@ -343,7 +343,7 @@ priority 2
 		type bigWig
 
 		track H3K4me3_HI32
-		bigDataUrl http://gattaca.imppc.org/genome_browser/lplab/HistoneModifications_hg19/H3k4me3_HI_32_hg19-extended_compressed_RPKM.bw
+		bigDataUrl https://ndownloader.figshare.com/files/24600548?private_link=f2863dc8a85188bf0d9d
 		shortLabel H3K4me3 HI32
 		longLabel H3K4me3 ChIP-seq in Adult Islet HI32
 		parent hiH3K4me3
@@ -371,7 +371,7 @@ priority 2
 	priority 1
 
 		track IME_H3K4me3_HI25
-		bigDataUrl https://ndownloader.figshare.com/files/24598616?private_link=fe54905645ac714603f0
+		bigDataUrl https://ndownloader.figshare.com/files/24600425?private_link=f2863dc8a85188bf0d9d
 		shortLabel H3K27ac HI25
 		longLabel H3K27ac ChIP-seq in Adult Islet HI25
 		parent IME_H3K4me3
@@ -379,7 +379,7 @@ priority 2
 		type bigWig
 
 		track IME_H3K4me3_HI32
-		bigDataUrl https://ndownloader.figshare.com/files/24598619?private_link=fe54905645ac714603f0
+		bigDataUrl https://ndownloader.figshare.com/files/24600428?private_link=f2863dc8a85188bf0d9d
 		shortLabel H3K27ac HI32
 		longLabel H3K27ac ChIP-seq in Adult Islet HI32
 		parent IME_H3K4me3
@@ -403,7 +403,7 @@ priority 2
 	priority 1
 
 		track IME_H3K27ac_HI135
-		bigDataUrl https://ndownloader.figshare.com/files/24598628?private_link=fe54905645ac714603f0
+		bigDataUrl https://ndownloader.figshare.com/files/24600461?private_link=f2863dc8a85188bf0d9d
 		shortLabel H3K27ac HI135
 		longLabel H3K27ac ChIP-seq in Adult Islet HI135
 		parent IME_H3K27ac
@@ -411,7 +411,7 @@ priority 2
 		type bigWig
 
 		track IME_H3K27ac_HI131
-		bigDataUrl https://ndownloader.figshare.com/files/24598622?private_link=fe54905645ac714603f0
+		bigDataUrl https://ndownloader.figshare.com/files/24600440?private_link=f2863dc8a85188bf0d9d
 		shortLabel H3K27ac HI131
 		longLabel H3K27ac ChIP-seq in Adult Islet HI131
 		parent IME_H3K27ac
@@ -419,7 +419,7 @@ priority 2
 		type bigWig
 
 		track IME_H3K27ac_HI132
-		bigDataUrl https://ndownloader.figshare.com/files/24598625?private_link=fe54905645ac714603f0
+		bigDataUrl https://ndownloader.figshare.com/files/24600443?private_link=f2863dc8a85188bf0d9d
 		shortLabel H3K27ac HI132
 		longLabel H3K27ac ChIP-seq in Adult Islet HI132
 		parent IME_H3K27ac
@@ -457,7 +457,7 @@ priority 3
 	priority 1
 
 		track PDX1_HI32
-		bigDataUrl http://gattaca.imppc.org/genome_browser/lplab/IRB_hg19/hg19_PDX1_HI32.bw
+		bigDataUrl https://ndownloader.figshare.com/files/24600734?private_link=f2863dc8a85188bf0d9d
 		shortLabel PDX1 HI32
 		longLabel PDX1 ChIP-seq in Adult Islet HI32
 		parent hiPDX1
@@ -465,7 +465,7 @@ priority 3
 		type bigWig
 
 		track PDX1_HI45
-		bigDataUrl http://gattaca.imppc.org/genome_browser/lplab/IRB_hg19/hg19_PDX1_HI45.bw
+		bigDataUrl https://ndownloader.figshare.com/files/24600740?private_link=f2863dc8a85188bf0d9d
 		shortLabel PDX1 HI45
 		longLabel PDX1 ChIP-seq in Adult Islet HI45
 		parent hiPDX1
@@ -489,7 +489,7 @@ priority 3
 	priority 1
 
 		track FOXA2_HI32
-		bigDataUrl http://gattaca.imppc.org/genome_browser/lplab/IRB_hg19/hg19_FOXA2_HI32.bw
+		bigDataUrl hhttps://ndownloader.figshare.com/files/24600506?private_link=f2863dc8a85188bf0d9d
 		shortLabel FOXA2 HI32
 		longLabel FOXA2 ChIP-seq Adult Islet in HI32
 		parent hiFOXA2
@@ -497,7 +497,7 @@ priority 3
 		color 227,26,28
 
 		track FOXA2_HI101
-		bigDataUrl http://gattaca.imppc.org/genome_browser/lplab/IRB_hg19/hg19_FOXA2_HI101.bw
+		bigDataUrl https://ndownloader.figshare.com/files/24600509?private_link=f2863dc8a85188bf0d9d
 		shortLabel FOXA2 HI101
 		longLabel FOXA2 ChIP-seq in Adult Islet HI101
 		parent hiFOXA2
@@ -521,7 +521,7 @@ priority 3
 	priority 1
 
 		track MAFB_HI81
-		bigDataUrl http://gattaca.imppc.org/genome_browser/lplab/IRB_hg19/hg19_MAFB_HI81.bw
+		bigDataUrl https://ndownloader.figshare.com/files/24600569?private_link=f2863dc8a85188bf0d9d
 		shortLabel MAFB HI81
 		longLabel MAFB ChIP-seq Adult Islet in HI81
 		parent hiMAFB
@@ -529,7 +529,7 @@ priority 3
 		color 106,61,154
 
 		track MAFB_HI87
-		bigDataUrl http://gattaca.imppc.org/genome_browser/lplab/IRB_hg19/hg19_MAFB_HI87.bw
+		bigDataUrl https://ndownloader.figshare.com/files/24600599?private_link=f2863dc8a85188bf0d9d
 		shortLabel MAFB HI87
 		longLabel MAFB ChIP-seq in Adult Islet HI87
 		parent hiMAFB
@@ -553,7 +553,7 @@ priority 3
 	priority 1
 
 		track NKX2_2_HI88
-		bigDataUrl http://gattaca.imppc.org/genome_browser/lplab/IRB_hg19/hg19_NKX2.2_HI88.bw
+		bigDataUrl https://ndownloader.figshare.com/files/24600689?private_link=f2863dc8a85188bf0d9d
 		shortLabel NKX2.2 HI88
 		longLabel NKX2.2 ChIP-seq Adult Islet in HI88
 		parent hiNKX2_2
@@ -561,7 +561,7 @@ priority 3
 		color 51,160,44
 
 		track NKX2_2_HI87
-		bigDataUrl http://gattaca.imppc.org/genome_browser/lplab/IRB_hg19/hg19_NKX2.2_HI87.bw
+		bigDataUrl https://ndownloader.figshare.com/files/24600659?private_link=f2863dc8a85188bf0d9d
 		shortLabel NKX2.2 HI87
 		longLabel NKX2.2 ChIP-seq in Adult Islet HI87
 		parent hiNKX2_2
@@ -585,7 +585,7 @@ priority 3
 	priority 1
 
 		track NKX6_1_HI102
-		bigDataUrl http://gattaca.imppc.org/genome_browser/lplab/IRB_hg19/hg19_NKX6.1_HI102.bw
+		bigDataUrl https://ndownloader.figshare.com/files/24600713?private_link=f2863dc8a85188bf0d9d
 		shortLabel NKX6.1 HI102
 		longLabel NKX6.1 ChIP-seq Adult Islet in HI102
 		parent hiNKX6_1
@@ -593,7 +593,7 @@ priority 3
 		color 51,160,44
 
 		track NKX6_1_HI118
-		bigDataUrl http://gattaca.imppc.org/genome_browser/lplab/IRB_hg19/hg19_NKX6.1_HI118.bw
+		bigDataUrl https://ndownloader.figshare.com/files/24600731?private_link=f2863dc8a85188bf0d9d
 		shortLabel NKX6.1 HI118
 		longLabel NKX6.1 ChIP-seq in Adult Islet HI118
 		parent hiNKX6_1
@@ -617,7 +617,7 @@ priority 3
 	priority 1
 
 		track LP_CTCF_HI32
-		bigDataUrl http://gattaca.imppc.org/genome_browser/lplab/TxFactors_hg19/CTCF_HI32_hg19-extended_compressed_RPKM.bw
+		bigDataUrl https://ndownloader.figshare.com/files/24600494?private_link=f2863dc8a85188bf0d9d
 		shortLabel CTCF HI32
 		longLabel CTCF ChIP-seq in Adult Islet HI32
 		parent LP_CTCF
@@ -625,7 +625,7 @@ priority 3
 		type bigWig
 
 		track LP_CTCF_HI34
-		bigDataUrl http://gattaca.imppc.org/genome_browser/lplab/TxFactors_hg19/CTCF_HI34_hg19-extended_compressed_RPKM.bw
+		bigDataUrl https://ndownloader.figshare.com/files/24600497?private_link=f2863dc8a85188bf0d9d
 		shortLabel CTCF HI34
 		longLabel CTCF ChIP-seq in Adult Islet HI34
 		parent LP_CTCF
@@ -633,7 +633,7 @@ priority 3
 		type bigWig
 
 		track LP_CTCF_HI22
-		bigDataUrl http://gattaca.imppc.org/genome_browser/lplab/TxFactors_hg19/CTCF_HI22_hg19-extended_compressed_RPKM.bw
+		bigDataUrl https://ndownloader.figshare.com/files/24600491?private_link=f2863dc8a85188bf0d9d
 		shortLabel CTCF HI22
 		longLabel CTCF ChIP-seq in Adult Islet HI22
 		parent LP_CTCF
@@ -661,7 +661,7 @@ priority 3
 	priority 1
 
 		track IME_cohesin_HI128
-		bigDataUrl https://ndownloader.figshare.com/files/24598703?private_link=fe54905645ac714603f0
+		bigDataUrl https://ndownloader.figshare.com/files/24600488?private_link=f2863dc8a85188bf0d9d
 		shortLabel Cohesin HI128
 		longLabel Cohesin (SMCA1) ChIP-seq in Adult Islet HI128
 		parent IME_cohesin
@@ -669,7 +669,7 @@ priority 3
 		type bigWig
 
 		track IME_cohesin_HI13
-		bigDataUrl https://ndownloader.figshare.com/files/24598694?private_link=fe54905645ac714603f0
+		bigDataUrl https://ndownloader.figshare.com/files/24600482?private_link=f2863dc8a85188bf0d9d
 		shortLabel Cohesin HI13
 		longLabel Cohesin (SMCA1) ChIP-seq in Adult Islet HI13
 		parent IME_cohesin
@@ -677,7 +677,7 @@ priority 3
 		type bigWig
 
 		track IME_cohesin_HI123
-		bigDataUrl https://ndownloader.figshare.com/files/24598697?private_link=fe54905645ac714603f0
+		bigDataUrl https://ndownloader.figshare.com/files/24600485?private_link=f2863dc8a85188bf0d9d
 		shortLabel Cohesin HI123
 		longLabel Cohesin (SMCA1) ChIP-seq in Adult Islet HI123
 		parent IME_cohesin
@@ -701,7 +701,7 @@ priority 3
 	priority 1
 
 		track IME_CTCF_HI32
-		bigDataUrl https://ndownloader.figshare.com/files/24598604?private_link=fe54905645ac714603f0
+		bigDataUrl https://ndownloader.figshare.com/files/24600413?private_link=f2863dc8a85188bf0d9d
 		shortLabel CTCF HI32
 		longLabel CTCF ChIP-seq in Adult Islet HI32
 		parent IME_CTCF
@@ -709,7 +709,7 @@ priority 3
 		type bigWig
 
 		track IME_CTCF_HI34
-		bigDataUrl https://ndownloader.figshare.com/files/24598607?private_link=fe54905645ac714603f0
+		bigDataUrl https://ndownloader.figshare.com/files/24600419?private_link=f2863dc8a85188bf0d9d
 		shortLabel CTCF HI34
 		longLabel CTCF ChIP-seq in Adult Islet HI34
 		parent IME_CTCF
@@ -717,7 +717,7 @@ priority 3
 		type bigWig
 
 		track IME_CTCF_HI22
-		bigDataUrl https://ndownloader.figshare.com/files/24598598?private_link=fe54905645ac714603f0
+		bigDataUrl https://ndownloader.figshare.com/files/24600407?private_link=f2863dc8a85188bf0d9d
 		shortLabel CTCF HI22
 		longLabel CTCF ChIP-seq in Adult Islet HI22
 		parent IME_CTCF
@@ -741,7 +741,7 @@ priority 3
 	priority 1
 
 		track IME_mediator_HI135
-		bigDataUrl https://ndownloader.figshare.com/files/24598652?private_link=fe54905645ac714603f0
+		bigDataUrl https://ndownloader.figshare.com/files/24600479?private_link=f2863dc8a85188bf0d9d
 		shortLabel Mediator HI135
 		longLabel Mediator ChIP-seq in Adult Islet HI135
 		parent IME_mediator
@@ -749,7 +749,7 @@ priority 3
 		type bigWig
 
 		track IME_mediator_HI131
-		bigDataUrl https://ndownloader.figshare.com/files/24598646?private_link=fe54905645ac714603f0
+		bigDataUrl https://ndownloader.figshare.com/files/24600473?private_link=f2863dc8a85188bf0d9d
 		shortLabel Mediator HI131
 		longLabel Mediator ChIP-seq in Adult Islet HI131
 		parent IME_mediator
@@ -757,7 +757,7 @@ priority 3
 		type bigWig
 
 		track IME_mediator_HI132
-		bigDataUrl https://ndownloader.figshare.com/files/24598649?private_link=fe54905645ac714603f0
+		bigDataUrl https://ndownloader.figshare.com/files/24600476?private_link=f2863dc8a85188bf0d9d
 		shortLabel Mediator HI132
 		longLabel Mediator ChIP-seq in Adult Islet HI132
 		parent IME_mediator
@@ -783,7 +783,7 @@ priority 4
 	type bigWig
 	shortLabel PDX1 Pancreatic Progenitor PP3 (Cebola I et al. 2015)
 	longLabel PDX1 ChIP-seq in Pancreatic Progenitor PP3 (Cebola I et al. 2015)
-	bigDataUrl http://gattaca.imppc.org/genome_browser/lplab/IRB_hg19/hg19_PDX1_PP3.bw
+	bigDataUrl https://ndownloader.figshare.com/files/24600377?private_link=f2863dc8a85188bf0d9d
 	visibility hide
 	smoothingWindow 2
 	windowingFunction mean
@@ -810,7 +810,7 @@ priority 4
 	priority 1
 
 		track FOXA2_PP2
-		bigDataUrl http://gattaca.imppc.org/genome_browser/lplab/IRB_hg19/hg19_FOXA2_PP2.bw
+		bigDataUrl https://ndownloader.figshare.com/files/24600320?private_link=f2863dc8a85188bf0d9d
 		shortLabel FOXA2 PP2
 		longLabel FOXA2 ChIP-seq Adult Islet in PP2
 		parent ppFOXA2
@@ -818,7 +818,7 @@ priority 4
 		color 251,154,153
 
 		track FOXA2_PP3
-		bigDataUrl http://gattaca.imppc.org/genome_browser/lplab/IRB_hg19/hg19_FOXA2_PP3.bw
+		bigDataUrl https://ndownloader.figshare.com/files/24600335?private_link=f2863dc8a85188bf0d9d
 		shortLabel FOXA2 PP3
 		longLabel FOXA2 ChIP-seq in Adult Islet PP3
 		parent ppFOXA2
@@ -830,7 +830,7 @@ priority 4
 	type bigWig
 	shortLabel ONECUT1 Pancreatic Progenitor PP2 (Cebola I et al. 2015)
 	longLabel ONECUT1 ChIP-seq in Pancreatic Progenitor PP2 (Cebola I et al. 2015)
-	bigDataUrl http://gattaca.imppc.org/genome_browser/lplab/IRB_hg19/hg19_ONECUT1_PP2.bw
+	bigDataUrl https://ndownloader.figshare.com/files/24600374?private_link=f2863dc8a85188bf0d9d
 	visibility hide
 	smoothingWindow 2
 	windowingFunction mean
@@ -845,7 +845,7 @@ priority 4
 	type bigWig
 	shortLabel HNF1B Pancreatic Progenitor PP4 (Cebola I et al. 2015)
 	longLabel HNF1B ChIP-seq in Pancreatic Progenitor PP4 (Cebola I et al. 2015)
-	bigDataUrl http://gattaca.imppc.org/genome_browser/lplab/IRB_hg19/hg19_HNF1beta_PP4.bw
+	bigDataUrl https://ndownloader.figshare.com/files/24600362?private_link=f2863dc8a85188bf0d9d
 	visibility hide
 	smoothingWindow 2
 	windowingFunction mean
@@ -860,7 +860,7 @@ priority 4
 	type bigWig
 	shortLabel TEAD1 Pancreatic Progenitors (Cebola I et al. 2015)
 	longLabel TEAD1 ChIP-seq in Pancreatic Progenitors (Cebola I et al. 2015)
-	bigDataUrl http://gattaca.imppc.org/genome_browser/lplab/IRB_hg19/hg19_TEAD1_PP.bw
+	bigDataUrl https://ndownloader.figshare.com/files/24600383?private_link=f2863dc8a85188bf0d9d
 	visibility hide
 	smoothingWindow 2
 	windowingFunction mean
@@ -875,7 +875,7 @@ priority 4
 	type bigWig
 	shortLabel GATA6 Pancreatic Progenitor PP2 (Cebola I et al. 2015)
 	longLabel GATA6 ChIP-seq in Pancreatic Progenitor PP2 (Cebola I et al. 2015)
-	bigDataUrl http://gattaca.imppc.org/genome_browser/lplab/IRB_hg19/hg19_GATA6_PP2.bw
+	bigDataUrl https://ndownloader.figshare.com/files/24600353?private_link=f2863dc8a85188bf0d9d
 	visibility hide
 	smoothingWindow 2
 	windowingFunction mean

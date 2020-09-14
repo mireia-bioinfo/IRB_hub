@@ -215,7 +215,7 @@ priority 2
 	priority 1
 
 		track H2AZ_HI22
-		bigDataUrl https://ndownloader.figshare.com/files/24600512?private_link=f2863dc8a85188bf0d9d
+		bigDataUrl https://ndownloader.figshare.com/files/24671750?private_link=f2863dc8a85188bf0d9d
 		shortLabel H2A.Z HI22
 		longLabel H2A.Z ChIP-seq in Adult Islet HI22
 		parent hiH2AZ

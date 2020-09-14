@@ -489,7 +489,7 @@ priority 3
 	priority 1
 
 		track FOXA2_HI32
-		bigDataUrl hhttps://ndownloader.figshare.com/files/24600506?private_link=f2863dc8a85188bf0d9d
+		bigDataUrl https://ndownloader.figshare.com/files/24600506?private_link=f2863dc8a85188bf0d9d
 		shortLabel FOXA2 HI32
 		longLabel FOXA2 ChIP-seq Adult Islet in HI32
 		parent hiFOXA2

@@ -2,7 +2,7 @@
 {
     "type": "categorical",
     "name": "Islet_ChromHMM",
-    "url": "http://gattaca.imppc.org/genome_browser/lplab/JF-PCHiC_hg19/islet_15.ChromHMM.categorical.txt.gz",
+    "url": "http://pasqualilab.upf.edu/gbrowser/PIRB_tracks_hg19/islet_15.ChromHMM.categorical.txt.gz",
     "showOnHubLoad": true,
     "details": {
         "Publication": "Miguel-Escalada I et al. 2019"
@@ -30,7 +30,7 @@
 {
     "type":"categorical",
     "name":"New_Islet_Regulome",
-    "url":"http://gattaca.imppc.org/genome_browser/lplab/JF-PCHiC_hg19/NewRegulome.washU.categorical.txt.gz", 
+    "url":"http://pasqualilab.upf.edu/gbrowser/PIRB_tracks_hg19/NewRegulome.washU.categorical.txt.gz", 
     "showOnHubLoad": true,
     "details": {
         "Publication": "Miguel-Escalada I et al. 2019"
@@ -57,7 +57,7 @@
 {
     "type":"bed",
     "name":"Super-enhancers",
-    "url":"http://gattaca.imppc.org/genome_browser/lplab/JF-PCHiC_hg19/Active_enhancers_all_merged_Gateway_SuperEnhancers_HI135_sorted.bed.gz",
+    "url":"http://pasqualilab.upf.edu/gbrowser/PIRB_tracks_hg19/Active_enhancers_all_merged_Gateway_SuperEnhancers_HI135_sorted.bed.gz",
     "showOnHubLoad": true,
     "details": {
         "Publication": "Miguel-Escalada I et al. 2019"
@@ -69,7 +69,7 @@
 {
     "type":"bed",
     "name":"Enhancer_clusters",
-    "url":"http://gattaca.imppc.org/genome_browser/lplab/JF-PCHiC_hg19/HI.EnhancerClusters.HighlyBound_2quartiles.hg19_sorted.bed.gz",
+    "url":"http://pasqualilab.upf.edu/gbrowser/PIRB_tracks_hg19/HI.EnhancerClusters.HighlyBound_2quartiles.hg19_sorted.bed.gz",
     "showOnHubLoad": true,
     "details": {
         "Publication": "Pasquali L et al. 2014"
@@ -81,7 +81,7 @@
 {
     "type":"bed",
     "name":"Stretch-enhancers",
-    "url":"http://gattaca.imppc.org/genome_browser/lplab/JF-PCHiC_hg19/Islets.stretchEnhancers_sorted.bed.gz",
+    "url":"http://pasqualilab.upf.edu/gbrowser/PIRB_tracks_hg19/Islets.stretchEnhancers_sorted.bed.gz",
     "showOnHubLoad": true,
     "details": {
         "Publication": "Parker SC et al. 2013"
@@ -93,7 +93,7 @@
 {
     "type": "bed",
     "name":"Islet_TAD-like",
-    "url":"http://gattaca.imppc.org/genome_browser/lplab/JF-PCHiC_hg19/Islets.PC-HiC.domains.bed.gz",
+    "url":"http://pasqualilab.upf.edu/gbrowser/PIRB_tracks_hg19/Islets.PC-HiC.domains.bed.gz",
     "showOnHubLoad": true,
     "details": {
         "Publication": "Miguel-Escalada I et al. 2019"
@@ -481,7 +481,7 @@
     "type": "longrange",
     "name": "pcHi-C_islets",
     "showOnHubLoad": true,
-    "url": "http://gattaca.imppc.org/genome_browser/lplab/JF-PCHiC_hg19/PC-HiC.PI.Interactions.visualization_only.txt.gz",
+    "url": "http://pasqualilab.upf.edu/gbrowser/PIRB_tracks_hg19/PC-HiC.PI.Interactions.visualization_only.txt.gz",
     "details": {
         "Publication": "Miguel-Escalada I et al. 2019"
     },
@@ -499,7 +499,7 @@
     "type": "longrange",
     "name": "pcHi-C_erythroblasts",
     "showOnHubLoad": true,
-    "url": "http://gattaca.imppc.org/genome_browser/lplab/JF-PCHiC_hg19/PC-HiC.Ery.Interactions.visualization_only.txt.gz",
+    "url": "http://pasqualilab.upf.edu/gbrowser/PIRB_tracks_hg19/PC-HiC.Ery.Interactions.visualization_only.txt.gz",
     "details": {
         "Publication": "Miguel-Escalada I et al. 2019"
     },
@@ -517,7 +517,7 @@
     "type": "longrange",
     "name": "pcHi-C_macrophages",
     "showOnHubLoad": true,
-    "url": "http://gattaca.imppc.org/genome_browser/lplab/JF-PCHiC_hg19/PC-HiC.Mac1.Interactions.visualization_only.txt.gz",
+    "url": "http://pasqualilab.upf.edu/gbrowser/PIRB_tracks_hg19/PC-HiC.Mac1.Interactions.visualization_only.txt.gz",
     "details": {
         "Publication": "Miguel-Escalada I et al. 2019"
     },
@@ -535,7 +535,7 @@
     "type": "longrange",
     "name": "pcHi-C_naive_CD4+_Tcells",
     "showOnHubLoad": true,
-    "url": "http://gattaca.imppc.org/genome_browser/lplab/JF-PCHiC_hg19/PC-HiC.NCD4.Interactions.visualization_only.txt.gz",
+    "url": "http://pasqualilab.upf.edu/gbrowser/PIRB_tracks_hg19/PC-HiC.NCD4.Interactions.visualization_only.txt.gz",
     "details": {
         "Publication": "Miguel-Escalada I et al. 2019"
     },
@@ -553,7 +553,7 @@
     "type": "longrange",
     "name": "pcHi-C_total_B_lymphocytes",
     "showOnHubLoad": true,
-    "url": "http://gattaca.imppc.org/genome_browser/lplab/JF-PCHiC_hg19/PC-HiC.TotalB.Interactions.visualization_only.txt.gz",
+    "url": "http://pasqualilab.upf.edu/gbrowser/PIRB_tracks_hg19/PC-HiC.TotalB.Interactions.visualization_only.txt.gz",
     "details": {
         "Publication": "Miguel-Escalada I et al. 2019"
     },
@@ -570,7 +570,7 @@
 {
     "type":"bed",
     "name":"pcHi-C_probes",
-    "url":"http://gattaca.imppc.org/genome_browser/lplab/JF-PCHiC_hg19/PC-HiC.probes.bed.gz",
+    "url":"http://pasqualilab.upf.edu/gbrowser/PIRB_tracks_hg19/PC-HiC.probes.bed.gz",
     "showOnHubLoad": true,
     "details": {
         "Publication": "Miguel-Escalada I et al. 2019"
@@ -583,7 +583,7 @@
 {
     "type": "bed",
     "name": "HindIII",
-    "url": "http://gattaca.imppc.org/genome_browser/lplab/JF-PCHiC_hg19/HindIII.hg19.txt.gz",
+    "url": "http://pasqualilab.upf.edu/gbrowser/PIRB_tracks_hg19/HindIII.hg19.txt.gz",
     "showOnHubLoad": true,
     "options": {
         "height": 50,

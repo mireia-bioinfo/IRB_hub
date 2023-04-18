@@ -521,7 +521,7 @@ priority 3
 	priority 1
 
 		track MAFB_HI81
-		bigDataUrl https://ndownloader.figshare.com/files/24600569?private_link=f2863dc8a85188bf0d9d
+		bigDataUrl http://pasqualilab.upf.edu/gbrowser/PIRB_tracks_hg19/hg19_LP_MAFB_HI81.bw
 		shortLabel MAFB HI81
 		longLabel MAFB ChIP-seq Adult Islet in HI81
 		parent hiMAFB
@@ -529,7 +529,7 @@ priority 3
 		color 106,61,154
 
 		track MAFB_HI87
-		bigDataUrl https://ndownloader.figshare.com/files/24600599?private_link=f2863dc8a85188bf0d9d
+		bigDataUrl http://pasqualilab.upf.edu/gbrowser/PIRB_tracks_hg19/hg19_LP_MAFB_HI87.bw
 		shortLabel MAFB HI87
 		longLabel MAFB ChIP-seq in Adult Islet HI87
 		parent hiMAFB
